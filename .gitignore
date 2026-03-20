@@ -13,3 +13,6 @@ uploads
 *.sqlite-wal
 dist
 packages/*/dist
+designs/
+scripts/fetch-stitch-designs.mjs
+scripts/download-html.mjs
