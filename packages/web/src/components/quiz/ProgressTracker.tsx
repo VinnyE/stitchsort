@@ -31,9 +31,7 @@ export default function ProgressTracker({
             <div
               key={i}
               className={`w-2.5 h-2.5 rounded-full border-4 border-surface transition-colors duration-300 ${
-                i <= currentStep
-                  ? "bg-primary"
-                  : "bg-surface-container-high"
+                i <= currentStep ? "bg-primary" : "bg-surface-container-high"
               }`}
             />
           ))}

@@ -105,8 +105,7 @@ export const quizSteps: QuizStep[] = [
         id: "quilting",
         icon: "grid_on",
         title: "Quilting",
-        description:
-          "Patchwork, free-motion quilting, and layered fabric art.",
+        description: "Patchwork, free-motion quilting, and layered fabric art.",
       },
       {
         id: "home-decor",
@@ -130,8 +129,7 @@ export const quizSteps: QuizStep[] = [
         id: "embroidery",
         icon: "draw",
         title: "Embroidery",
-        description:
-          "Decorative stitching, monogramming, and thread artwork.",
+        description: "Decorative stitching, monogramming, and thread artwork.",
       },
     ],
   },
@@ -162,8 +160,7 @@ export const quizSteps: QuizStep[] = [
         id: "stitch-variety",
         icon: "auto_awesome",
         title: "Stitch Variety",
-        description:
-          "Large library of decorative and utility stitch patterns.",
+        description: "Large library of decorative and utility stitch patterns.",
       },
       {
         id: "heavy-duty",
@@ -200,15 +197,13 @@ export const quizSteps: QuizStep[] = [
         id: "entry",
         icon: "savings",
         title: "Under $150",
-        description:
-          "Entry-level machines perfect for learning or light use.",
+        description: "Entry-level machines perfect for learning or light use.",
       },
       {
         id: "mid",
         icon: "account_balance",
         title: "$150 - $250",
-        description:
-          "Great balance of features and value for regular sewists.",
+        description: "Great balance of features and value for regular sewists.",
       },
       {
         id: "premium",
@@ -221,8 +216,7 @@ export const quizSteps: QuizStep[] = [
         id: "professional",
         icon: "workspace_premium",
         title: "$500+",
-        description:
-          "Professional-grade machines with top-tier capabilities.",
+        description: "Professional-grade machines with top-tier capabilities.",
       },
     ],
   },

@@ -2,7 +2,7 @@
 
 ## 1. Overview & Creative North Star
 
-**Creative North Star: The Tailored Atelier**
+### Creative North Star: The Tailored Atelier
 
 This design system moves away from the "industrial utility" of standard e-commerce and into the curated, tactile world of a master artisan. The objective is to evoke the feeling of a sunlit, organized sewing studio—where every tool has a place, and every choice is intentional.
 

@@ -38,9 +38,9 @@ export default function ComparisonPage() {
           Tailored Results for Your Workshop
         </h1>
         <p className="mt-6 text-on-surface-variant max-w-xl leading-relaxed">
-          We've narrowed down the ideal machines for your specific needs. Compare
-          the technical specifications and artisanal capabilities of your top
-          three matches.
+          We've narrowed down the ideal machines for your specific needs.
+          Compare the technical specifications and artisanal capabilities of
+          your top three matches.
         </p>
       </header>
 
@@ -111,7 +111,8 @@ export default function ComparisonPage() {
                     }
                     if (spec.key === "fabricHandling") {
                       const isGood =
-                        scored.machine.specs.fabricHandling !== "Lightweight Only";
+                        scored.machine.specs.fabricHandling !==
+                        "Lightweight Only";
                       return (
                         <div
                           key={spec.key}
@@ -145,10 +146,7 @@ export default function ComparisonPage() {
                             ? "bg-tertiary/10 text-tertiary"
                             : "bg-secondary-container/20 text-on-secondary-container";
                       return (
-                        <div
-                          key={spec.key}
-                          className="h-12 flex items-center"
-                        >
+                        <div key={spec.key} className="h-12 flex items-center">
                           <span
                             className={`${colorClass} px-3 py-1 text-[11px] font-bold uppercase tracking-wider rounded-full`}
                           >

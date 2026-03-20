@@ -33,12 +33,9 @@ export function QuizProvider({ children }: { children: ReactNode }) {
 
   const totalSteps = quizSteps.length;
 
-  const setAnswer = useCallback(
-    (stepId: QuizStepId, value: string[]) => {
-      setAnswers((prev) => ({ ...prev, [stepId]: value }));
-    },
-    [],
-  );
+  const setAnswer = useCallback((stepId: QuizStepId, value: string[]) => {
+    setAnswers((prev) => ({ ...prev, [stepId]: value }));
+  }, []);
 
   const nextStep = useCallback(() => {
     if (currentStep < totalSteps - 1) {

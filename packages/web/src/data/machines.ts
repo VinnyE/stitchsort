@@ -26,7 +26,7 @@ export const machines: Machine[] = [
       "Under $300 budget",
     ],
     description:
-      "This machine perfectly aligns with your focus on lightweight garment construction. Its intuitive needle threader and speed control provide the \"low noise\" learning environment you requested.",
+      'This machine perfectly aligns with your focus on lightweight garment construction. Its intuitive needle threader and speed control provide the "low noise" learning environment you requested.',
     tradeoff: "Struggles with heavy layers of denim or upholstery fabrics.",
     tradeoffLabel: "Watch out for",
   },

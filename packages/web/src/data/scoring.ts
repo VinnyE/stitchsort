@@ -77,19 +77,19 @@ function scoreMachine(
       const goodProjects = ["garments", "quilting", "embroidery", "crafts"];
       const matches = projects.filter((p) => goodProjects.includes(p));
       totalScore +=
-        WEIGHTS.projects * Math.max((matches.length / projects.length), 0.3);
+        WEIGHTS.projects * Math.max(matches.length / projects.length, 0.3);
       if (matches.length > 0) reasons.push("Ideal for your project types");
     } else if (machineId === "singer-4423") {
       const goodProjects = ["home-decor", "repairs"];
       const matches = projects.filter((p) => goodProjects.includes(p));
       totalScore +=
-        WEIGHTS.projects * Math.max((matches.length / projects.length), 0.3);
+        WEIGHTS.projects * Math.max(matches.length / projects.length, 0.3);
       if (matches.length > 0) reasons.push("Strong for structural projects");
     } else if (machineId === "brother-xm2701") {
       const goodProjects = ["repairs", "crafts"];
       const matches = projects.filter((p) => goodProjects.includes(p));
       totalScore +=
-        WEIGHTS.projects * Math.max((matches.length / projects.length), 0.3);
+        WEIGHTS.projects * Math.max(matches.length / projects.length, 0.3);
       if (matches.length > 0) reasons.push("Good for basic projects");
     }
   }
@@ -106,24 +106,19 @@ function scoreMachine(
       ];
       const matches = features.filter((f) => goodFeatures.includes(f));
       totalScore +=
-        WEIGHTS.features * Math.max((matches.length / features.length), 0.2);
-      if (matches.length > 0)
-        reasons.push("Matches your feature priorities");
+        WEIGHTS.features * Math.max(matches.length / features.length, 0.2);
+      if (matches.length > 0) reasons.push("Matches your feature priorities");
     } else if (machineId === "singer-4423") {
       const goodFeatures = ["heavy-duty"];
       const matches = features.filter((f) => goodFeatures.includes(f));
       totalScore +=
-        WEIGHTS.features *
-        Math.max(
-          matches.length > 0 ? 0.8 : 0.3,
-          0.2,
-        );
+        WEIGHTS.features * Math.max(matches.length > 0 ? 0.8 : 0.3, 0.2);
       if (matches.length > 0) reasons.push("Heavy-duty power you wanted");
     } else if (machineId === "brother-xm2701") {
       const goodFeatures = ["portability", "quiet-operation"];
       const matches = features.filter((f) => goodFeatures.includes(f));
       totalScore +=
-        WEIGHTS.features * Math.max((matches.length / features.length), 0.2);
+        WEIGHTS.features * Math.max(matches.length / features.length, 0.2);
       if (matches.length > 0) reasons.push("Lightweight and portable");
     }
   }

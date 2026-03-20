@@ -28,7 +28,10 @@ export default function MobileNav() {
                 : "text-on-surface/60"
             }`}
           >
-            <span className="material-symbols-outlined" style={{ fontSize: 20 }}>
+            <span
+              className="material-symbols-outlined"
+              style={{ fontSize: 20 }}
+            >
               {tab.icon}
             </span>
             <span className="font-body text-[11px] uppercase tracking-wider mt-0.5">

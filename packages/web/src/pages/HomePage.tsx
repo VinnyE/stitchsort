@@ -28,9 +28,7 @@ export default function HomePage() {
                 className="bg-primary text-on-primary px-10 py-5 rounded-sm font-body text-lg font-semibold tracking-wide shadow-lg shadow-primary/10 hover:bg-primary-container transition-all flex items-center justify-center gap-3 no-underline"
               >
                 Take the Quiz
-                <span className="material-symbols-outlined">
-                  arrow_forward
-                </span>
+                <span className="material-symbols-outlined">arrow_forward</span>
               </Link>
             </div>
           </div>

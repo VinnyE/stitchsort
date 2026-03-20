@@ -40,9 +40,7 @@ export default function QuizOption({
       </p>
       <div
         className={`mt-4 flex items-center font-label uppercase tracking-widest text-primary transition-opacity ${
-          selected
-            ? "opacity-100"
-            : "opacity-0 group-hover:opacity-100"
+          selected ? "opacity-100" : "opacity-0 group-hover:opacity-100"
         } ${size === "large" ? "text-xs" : "text-[10px]"}`}
       >
         {selected ? "Selected" : "Select"}

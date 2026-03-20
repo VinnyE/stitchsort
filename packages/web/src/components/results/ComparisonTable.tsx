@@ -27,7 +27,9 @@ export default function ComparisonTable({ results }: ComparisonTableProps) {
                   key={r.machine.id}
                   className="p-6 font-headline text-lg border-l border-outline-variant/10"
                 >
-                  {r.machine.name.replace("Brother ", "").replace("Singer ", "")}
+                  {r.machine.name
+                    .replace("Brother ", "")
+                    .replace("Singer ", "")}
                 </th>
               ))}
             </tr>

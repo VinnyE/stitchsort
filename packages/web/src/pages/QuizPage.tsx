@@ -105,7 +105,7 @@ export default function QuizPage() {
           return (
             <div
               key={option.id}
-              className={isBento ? bentoClasses[i] ?? "" : ""}
+              className={isBento ? (bentoClasses[i] ?? "") : ""}
             >
               <QuizOption
                 icon={option.icon}
