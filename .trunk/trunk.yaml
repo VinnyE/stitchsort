@@ -24,6 +24,13 @@ lint:
     - taplo@0.10.0
     - trufflehog@3.93.8
     - yamllint@1.38.0
+  ignore:
+    - linters: [markdownlint]
+      paths:
+        - designs/**
+    - linters: [prettier]
+      paths:
+        - designs/**
 actions:
   disabled:
     - trunk-announce

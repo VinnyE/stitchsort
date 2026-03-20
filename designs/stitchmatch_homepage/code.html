@@ -1,0 +1,444 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Inter:wght@100..900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-secondary-container": "#7a4228",
+              "on-error": "#ffffff",
+              "primary-fixed": "#a3f0ef",
+              "primary-fixed-dim": "#87d3d3",
+              "on-tertiary-fixed-variant": "#1e5030",
+              "secondary-container": "#ffb191",
+              "tertiary-container": "#4d7f5c",
+              "on-secondary": "#ffffff",
+              "surface-variant": "#e5e2dd",
+              "inverse-surface": "#31302d",
+              "error-container": "#ffdad6",
+              "tertiary-fixed-dim": "#9ed3aa",
+              "tertiary-fixed": "#b9efc4",
+              tertiary: "#356644",
+              "on-surface": "#1c1c19",
+              "surface-container-low": "#f6f3ee",
+              "on-primary-fixed-variant": "#004f50",
+              primary: "#076767",
+              "surface-tint": "#0d6969",
+              "primary-container": "#308080",
+              secondary: "#8a4f34",
+              "surface-container-lowest": "#ffffff",
+              "on-tertiary-container": "#f6fff4",
+              "surface-container": "#f0ede9",
+              surface: "#fcf9f4",
+              "inverse-on-surface": "#f3f0eb",
+              "surface-container-high": "#ebe8e3",
+              "on-tertiary-fixed": "#00210d",
+              "on-error-container": "#93000a",
+              "on-primary-fixed": "#002020",
+              "on-primary-container": "#f3fffe",
+              background: "#fcf9f4",
+              error: "#ba1a1a",
+              "secondary-fixed-dim": "#ffb596",
+              "on-primary": "#ffffff",
+              outline: "#6f7979",
+              "on-background": "#1c1c19",
+              "on-secondary-fixed-variant": "#6e381f",
+              "on-surface-variant": "#3f4948",
+              "secondary-fixed": "#ffdbcd",
+              "surface-dim": "#dcdad5",
+              "outline-variant": "#bec9c8",
+              "on-tertiary": "#ffffff",
+              "inverse-primary": "#87d3d3",
+              "surface-container-highest": "#e5e2dd",
+              "surface-bright": "#fcf9f4",
+              "on-secondary-fixed": "#360f00",
+            },
+            fontFamily: {
+              headline: ["Newsreader", "serif"],
+              body: ["Inter", "sans-serif"],
+              label: ["Inter", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "0.125rem",
+              lg: "0.25rem",
+              xl: "0.5rem",
+              full: "0.75rem",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings:
+          "FILL" 0,
+          "wght" 300,
+          "GRAD" 0,
+          "opsz" 24;
+      }
+      .glass-nav {
+        backdrop-filter: blur(20px);
+      }
+    </style>
+  </head>
+  <body
+    class="bg-background text-on-surface font-body selection:bg-secondary-container"
+  >
+    <!-- TopAppBar -->
+    <header
+      class="fixed top-0 w-full z-50 bg-[#fcf9f4]/80 dark:bg-stone-900/80 glass-nav shadow-sm dark:shadow-none"
+    >
+      <div
+        class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto"
+      >
+        <div
+          class="font-serif text-2xl font-bold text-[#076767] dark:text-[#3D8B8B]"
+        >
+          StitchMatch
+        </div>
+        <nav class="hidden md:flex items-center space-gap-8 gap-x-8">
+          <a
+            class="text-stone-600 dark:text-stone-400 hover:text-[#076767] transition-colors font-sans text-sm tracking-wide"
+            href="#"
+            >How it Works</a
+          >
+          <a
+            class="text-stone-600 dark:text-stone-400 hover:text-[#076767] transition-colors font-sans text-sm tracking-wide"
+            href="#"
+            >Machine Library</a
+          >
+          <a
+            class="text-stone-600 dark:text-stone-400 hover:text-[#076767] transition-colors font-sans text-sm tracking-wide"
+            href="#"
+            >Resources</a
+          >
+        </nav>
+        <div class="flex items-center">
+          <button
+            class="bg-primary text-on-primary px-6 py-2.5 rounded-sm font-sans text-sm font-medium tracking-wide scale-95 active:scale-90 transition-transform duration-300 hover:opacity-80"
+          >
+            Start Quiz
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="pt-24">
+      <!-- Hero Section -->
+      <section
+        class="relative px-6 py-24 md:py-40 max-w-7xl mx-auto overflow-hidden"
+      >
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <div class="lg:col-span-7 z-10">
+            <div class="mb-6">
+              <span
+                class="font-label text-xs uppercase tracking-[0.2em] text-secondary font-semibold"
+                >The Machine Finder</span
+              >
+            </div>
+            <h1
+              class="font-headline text-5xl md:text-7xl lg:text-8xl text-on-surface leading-[1.1] tracking-tight mb-8"
+            >
+              Which sewing machine is right for you?
+            </h1>
+            <p
+              class="font-body text-lg md:text-xl text-on-surface-variant max-w-xl mb-12 leading-relaxed"
+            >
+              Stop guessing. Start sewing. Find your machine in 90 seconds with
+              our independent matching engine.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+              <button
+                class="bg-primary text-on-primary px-10 py-5 rounded-sm font-sans text-lg font-semibold tracking-wide shadow-lg shadow-primary/10 hover:bg-primary-container transition-all flex items-center justify-center gap-3"
+              >
+                Take the Quiz
+                <span
+                  class="material-symbols-outlined"
+                  data-icon="arrow_forward"
+                  >arrow_forward</span
+                >
+              </button>
+            </div>
+          </div>
+          <div class="lg:col-span-5 relative">
+            <div
+              class="aspect-[4/5] bg-surface-container-low rounded-xl overflow-hidden relative"
+            >
+              <img
+                alt="Vintage sewing machine in a sunlit studio"
+                class="w-full h-full object-cover mix-blend-multiply opacity-80"
+                data-alt="Close up of a premium sewing machine in sunlight"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQqcD47zqVQYB1FGoQ1arXMM9UVlGBhXkxREVFIebxGMUp02x3kTw4EtxduHBLqPQZBt0LREOV569nVqsx8CptqbJ_hN7dap0eKkszS_ybVHnddV2dND4l7t0M4ESfIiK3S4HdQukv-PQR8d7crb__xY1p2dk1mJ0Mr8-OXPpEKhFTXWDStuid50pg4GBComw5thjWck5QxknwKZwjxvnEx_l9CCjNbV5IcocbJmxdK5WwjQuT-KeEQbkPB6xAJKmAE3shFKG0kuk"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-surface to-transparent opacity-40"
+              ></div>
+            </div>
+            <!-- Decorative Element -->
+            <div
+              class="absolute -bottom-6 -left-6 w-32 h-32 border-l border-b border-outline-variant/30"
+            ></div>
+          </div>
+        </div>
+      </section>
+      <!-- Trust Signals -->
+      <section
+        class="bg-surface-container-low py-20 px-6 border-y border-outline-variant/10"
+      >
+        <div class="max-w-7xl mx-auto">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-24">
+            <div class="flex flex-col items-start gap-4">
+              <div
+                class="w-12 h-12 flex items-center justify-center text-primary"
+              >
+                <span
+                  class="material-symbols-outlined text-3xl"
+                  data-icon="verified_user"
+                  >verified_user</span
+                >
+              </div>
+              <div>
+                <h3 class="font-headline text-xl mb-2">
+                  Free &amp; Independent
+                </h3>
+                <p class="text-on-surface-variant text-sm leading-relaxed">
+                  We don't take brand sponsorships. Our loyalty lies with your
+                  craft.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col items-start gap-4">
+              <div
+                class="w-12 h-12 flex items-center justify-center text-primary"
+              >
+                <span
+                  class="material-symbols-outlined text-3xl"
+                  data-icon="compare_arrows"
+                  >compare_arrows</span
+                >
+              </div>
+              <div>
+                <h3 class="font-headline text-xl mb-2">
+                  Cross-Brand Comparison
+                </h3>
+                <p class="text-on-surface-variant text-sm leading-relaxed">
+                  From Bernina to Brother, we analyze every major manufacturer
+                  in one place.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col items-start gap-4">
+              <div
+                class="w-12 h-12 flex items-center justify-center text-primary"
+              >
+                <span
+                  class="material-symbols-outlined text-3xl"
+                  data-icon="visibility"
+                  >visibility</span
+                >
+              </div>
+              <div>
+                <h3 class="font-headline text-xl mb-2">
+                  Transparent Methodology
+                </h3>
+                <p class="text-on-surface-variant text-sm leading-relaxed">
+                  See exactly why a machine was matched to your specific needs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- How it Works -->
+      <section class="py-32 px-6 max-w-7xl mx-auto">
+        <div class="text-center mb-24">
+          <span
+            class="font-label text-xs uppercase tracking-[0.2em] text-secondary font-semibold block mb-4"
+            >Our Process</span
+          >
+          <h2
+            class="font-headline text-4xl md:text-5xl lg:text-6xl text-on-surface"
+          >
+            Designed for clarity.
+          </h2>
+        </div>
+        <div class="relative grid grid-cols-1 md:grid-cols-3 gap-16">
+          <!-- Thread Progress Line (Desktop) -->
+          <div
+            class="hidden md:block absolute top-10 left-[15%] right-[15%] h-[1.5px] bg-outline-variant/30 z-0"
+          >
+            <div
+              class="absolute top-[-4px] left-0 w-2.5 h-2.5 rounded-full bg-primary"
+            ></div>
+            <div
+              class="absolute top-[-4px] left-1/2 -translate-x-1/2 w-2.5 h-2.5 rounded-full bg-primary"
+            ></div>
+            <div
+              class="absolute top-[-4px] right-0 w-2.5 h-2.5 rounded-full bg-primary"
+            ></div>
+          </div>
+          <!-- Step 1 -->
+          <div class="relative z-10 group">
+            <div
+              class="mb-10 w-20 h-20 bg-surface-container-highest rounded-full flex items-center justify-center mx-auto group-hover:bg-primary group-hover:text-on-primary transition-colors duration-500"
+            >
+              <span class="material-symbols-outlined text-3xl" data-icon="quiz"
+                >quiz</span
+              >
+            </div>
+            <div class="text-center">
+              <h4 class="font-headline text-2xl mb-4">Answer questions</h4>
+              <p class="text-on-surface-variant leading-relaxed px-4">
+                Tell us about your projects, skill level, and what features
+                matter most to your sewing journey.
+              </p>
+            </div>
+          </div>
+          <!-- Step 2 -->
+          <div class="relative z-10 group">
+            <div
+              class="mb-10 w-20 h-20 bg-surface-container-highest rounded-full flex items-center justify-center mx-auto group-hover:bg-primary group-hover:text-on-primary transition-colors duration-500"
+            >
+              <span
+                class="material-symbols-outlined text-3xl"
+                data-icon="auto_awesome"
+                >auto_awesome</span
+              >
+            </div>
+            <div class="text-center">
+              <h4 class="font-headline text-2xl mb-4">Get matched</h4>
+              <p class="text-on-surface-variant leading-relaxed px-4">
+                Our engine filters through hundreds of specs to find the top 3
+                machines for your profile.
+              </p>
+            </div>
+          </div>
+          <!-- Step 3 -->
+          <div class="relative z-10 group">
+            <div
+              class="mb-10 w-20 h-20 bg-surface-container-highest rounded-full flex items-center justify-center mx-auto group-hover:bg-primary group-hover:text-on-primary transition-colors duration-500"
+            >
+              <span
+                class="material-symbols-outlined text-3xl"
+                data-icon="fact_check"
+                >fact_check</span
+              >
+            </div>
+            <div class="text-center">
+              <h4 class="font-headline text-2xl mb-4">See reasoning</h4>
+              <p class="text-on-surface-variant leading-relaxed px-4">
+                Understand the 'why' behind each recommendation with transparent
+                feature breakdowns.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="mt-24 flex justify-center">
+          <button
+            class="bg-surface-container-highest text-primary px-8 py-4 rounded-sm font-sans font-semibold hover:bg-primary hover:text-on-primary transition-all duration-300"
+          >
+            Explore the Machine Library
+          </button>
+        </div>
+      </section>
+      <!-- CTA Featurette -->
+      <section class="mb-32 px-6">
+        <div
+          class="max-w-7xl mx-auto bg-primary rounded-xl p-12 md:p-24 relative overflow-hidden flex flex-col items-center text-center text-on-primary"
+        >
+          <!-- Abstract Grain Overlay -->
+          <div
+            class="absolute inset-0 opacity-10 pointer-events-none"
+            style="
+              background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuDX_ncq9tgbcvVdWDvzNvBMnSFfCJ_MDUHaAyE8yZxXN9QgRwKCAB3pzzmyAM7UftaZneJe_t8iUf5be5zXzYskn5_Wj5Un_RQlv2FmlfFgXB-Oxa3qV3G5lCkcFnaCfOq1pd0TD33oN0Jp3-j5-EzgO2yzdhwH-y18QC6v5_mzOqx2bztIg5amhbtDKR_nr8uc_ruRaINKW5wSLfM7k5pPZ3kXlu6lRHnQi8p9HhEe_H50AqhyuBZpqYBUCA5nBACw1003GUKbDqE&quot;);
+            "
+          ></div>
+          <h2 class="font-headline text-4xl md:text-6xl mb-8 relative z-10">
+            Ready to meet your match?
+          </h2>
+          <p
+            class="text-primary-fixed-dim text-lg md:text-xl max-w-2xl mb-12 relative z-10"
+          >
+            Join over 50,000 sewists who found their perfect studio companion
+            through StitchMatch.
+          </p>
+          <button
+            class="bg-surface text-primary px-12 py-5 rounded-sm font-sans text-lg font-bold tracking-wide hover:bg-secondary-fixed transition-all relative z-10 shadow-xl"
+          >
+            Start Your Search Now
+          </button>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer
+      class="bg-[#f6f3ee] dark:bg-stone-800 w-full border-t border-[#8a4f34]/10 pt-12 pb-8"
+    >
+      <div class="max-w-7xl mx-auto px-6">
+        <div
+          class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-12"
+        >
+          <div>
+            <div
+              class="font-serif text-lg font-semibold text-stone-800 dark:text-stone-100 mb-2"
+            >
+              StitchMatch
+            </div>
+            <p
+              class="text-stone-500 dark:text-stone-400 font-sans text-sm max-w-md"
+            >
+              © 2024 StitchMatch. Independent recommendations for every sewist.
+            </p>
+          </div>
+          <nav class="flex flex-wrap gap-x-8 gap-y-4">
+            <a
+              class="text-stone-500 dark:text-stone-400 hover:text-[#8a4f34] transition-colors font-sans text-sm tracking-wide underline decoration-[#076767]"
+              href="#"
+              >Methodology</a
+            >
+            <a
+              class="text-stone-500 dark:text-stone-400 hover:text-[#8a4f34] transition-colors font-sans text-sm tracking-wide"
+              href="#"
+              >Affiliate Disclosure</a
+            >
+            <a
+              class="text-stone-500 dark:text-stone-400 hover:text-[#8a4f34] transition-colors font-sans text-sm tracking-wide"
+              href="#"
+              >Privacy Policy</a
+            >
+            <a
+              class="text-stone-500 dark:text-stone-400 hover:text-[#8a4f34] transition-colors font-sans text-sm tracking-wide"
+              href="#"
+              >Contact</a
+            >
+          </nav>
+        </div>
+        <div class="pt-8 border-t border-outline-variant/20">
+          <p class="text-xs text-stone-400 leading-relaxed italic">
+            StitchMatch is a free tool for the sewing community. We may earn a
+            small commission if you purchase a machine through our links, but
+            this never affects our rankings or matches. We prioritize technical
+            specs and community feedback above all else.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

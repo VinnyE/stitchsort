@@ -1,0 +1,491 @@
+<!doctype html>
+
+<html class="light" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Inter:wght@100..900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary-fixed-dim": "#87d3d3",
+              "on-primary-container": "#f3fffe",
+              "on-background": "#1c1c19",
+              "surface-dim": "#dcdad5",
+              "on-secondary-fixed-variant": "#6e381f",
+              "primary-fixed": "#a3f0ef",
+              "on-surface": "#1c1c19",
+              "surface-bright": "#fcf9f4",
+              outline: "#6f7979",
+              "on-tertiary-fixed-variant": "#1e5030",
+              "on-tertiary": "#ffffff",
+              "surface-container-high": "#ebe8e3",
+              "on-tertiary-fixed": "#00210d",
+              "surface-variant": "#e5e2dd",
+              "secondary-fixed-dim": "#ffb596",
+              "secondary-fixed": "#ffdbcd",
+              "inverse-on-surface": "#f3f0eb",
+              "tertiary-fixed": "#b9efc4",
+              "surface-container": "#f0ede9",
+              "inverse-primary": "#87d3d3",
+              "inverse-surface": "#31302d",
+              secondary: "#8a4f34",
+              "on-surface-variant": "#3f4948",
+              "on-primary-fixed-variant": "#004f50",
+              "on-primary-fixed": "#002020",
+              surface: "#fcf9f4",
+              "on-error": "#ffffff",
+              tertiary: "#356644",
+              "outline-variant": "#bec9c8",
+              "on-secondary-fixed": "#360f00",
+              "surface-container-lowest": "#ffffff",
+              "on-secondary": "#ffffff",
+              background: "#fcf9f4",
+              "on-tertiary-container": "#f6fff4",
+              "tertiary-container": "#4d7f5c",
+              "on-primary": "#ffffff",
+              "on-error-container": "#93000a",
+              error: "#ba1a1a",
+              "surface-container-low": "#f6f3ee",
+              "secondary-container": "#ffb191",
+              "on-secondary-container": "#7a4228",
+              "tertiary-fixed-dim": "#9ed3aa",
+              "error-container": "#ffdad6",
+              "surface-container-highest": "#e5e2dd",
+              primary: "#076767",
+              "surface-tint": "#0d6969",
+              "primary-container": "#308080",
+            },
+            fontFamily: {
+              headline: ["Newsreader", "serif"],
+              body: ["Inter", "sans-serif"],
+              label: ["Inter", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "0.125rem",
+              lg: "0.25rem",
+              xl: "0.5rem",
+              full: "0.75rem",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings:
+          "FILL" 0,
+          "wght" 300,
+          "GRAD" 0,
+          "opsz" 24;
+      }
+      .custom-scrollbar::-webkit-scrollbar {
+        height: 4px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: #bec9c8;
+        border-radius: 2px;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-surface text-on-surface font-body selection:bg-primary-fixed-dim selection:text-on-primary-fixed"
+  >
+    <nav
+      class="fixed top-0 w-full z-50 bg-[#fcf9f4]/80 dark:bg-[#1c1c19]/80 backdrop-blur-xl transition-colors duration-300"
+    >
+      <div
+        class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto"
+      >
+        <div class="flex items-center gap-8">
+          <span
+            class="text-2xl font-serif italic text-[#076767] dark:text-[#3D8B8B]"
+            >StitchMatch</span
+          >
+          <div class="hidden md:flex gap-6 items-center">
+            <a
+              class="text-[#1c1c19]/70 dark:text-[#fcf9f4]/70 hover:text-[#076767] transition-all duration-300"
+              href="#"
+              >Models</a
+            >
+            <a
+              class="text-[#1c1c19]/70 dark:text-[#fcf9f4]/70 hover:text-[#076767] transition-all duration-300"
+              href="#"
+              >Guides</a
+            >
+            <a
+              class="text-[#1c1c19]/70 dark:text-[#fcf9f4]/70 hover:text-[#076767] transition-all duration-300"
+              href="#"
+              >Workshops</a
+            >
+          </div>
+        </div>
+        <div class="flex items-center gap-4">
+          <button
+            class="px-5 py-2 rounded-sm bg-primary text-on-primary text-sm font-medium hover:bg-primary-container transition-colors active:scale-95 duration-200 ease-out"
+          >
+            Start Quiz
+          </button>
+          <span
+            class="material-symbols-outlined text-on-surface-variant cursor-pointer"
+            >account_circle</span
+          >
+        </div>
+      </div>
+    </nav>
+    <main class="pt-24 pb-32 px-6 max-w-7xl mx-auto">
+      <header class="mb-16">
+        <span
+          class="font-label text-xs uppercase tracking-[0.2em] text-secondary mb-3 block"
+          >Match Comparison</span
+        >
+        <h1
+          class="font-headline text-5xl md:text-6xl text-on-background leading-tight max-w-2xl"
+        >
+          Tailored Results for Your Workshop
+        </h1>
+        <p class="mt-6 text-on-surface-variant max-w-xl leading-relaxed">
+          We've narrowed down the ideal machines for your specific needs.
+          Compare the technical specifications and artisanal capabilities of
+          your top three matches.
+        </p>
+      </header>
+      <div class="overflow-x-auto custom-scrollbar">
+        <div class="min-w-[1000px] grid grid-cols-4 gap-x-6">
+          <div class="col-span-1 pt-64 space-y-16">
+            <div class="h-12 flex items-center">
+              <span
+                class="font-label text-xs uppercase tracking-widest text-on-surface-variant/60"
+                >Price Range</span
+              >
+            </div>
+            <div class="h-12 flex items-center">
+              <span
+                class="font-label text-xs uppercase tracking-widest text-on-surface-variant/60"
+                >Project Type</span
+              >
+            </div>
+            <div class="h-12 flex items-center">
+              <span
+                class="font-label text-xs uppercase tracking-widest text-on-surface-variant/60"
+                >Fabric Handling</span
+              >
+            </div>
+            <div class="h-12 flex items-center">
+              <span
+                class="font-label text-xs uppercase tracking-widest text-on-surface-variant/60"
+                >Throat Space</span
+              >
+            </div>
+            <div class="h-12 flex items-center">
+              <span
+                class="font-label text-xs uppercase tracking-widest text-on-surface-variant/60"
+                >Best For</span
+              >
+            </div>
+          </div>
+          <div
+            class="col-span-1 bg-surface-container-low p-6 rounded-lg transition-all duration-300 hover:translate-y-[-4px] hover:bg-surface-container-high"
+          >
+            <div
+              class="mb-8 aspect-[4/5] bg-surface-container-highest rounded-sm overflow-hidden flex items-center justify-center p-4"
+            >
+              <img
+                class="w-full h-full object-cover rounded-sm grayscale-[0.2] hover:grayscale-0 transition-all duration-500"
+                data-alt="Close up of a modern computerized sewing machine"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7XjnnTZIEDI5Qfp7mdM31QgYClLIIGTtJ4_7aHdV9CPDxzzcsO-zgjEuHKvCD3E-Or5j551ycPh2Rr3-OQmtpuMtyZhewtXrgBO_izogi0WvhDzO6OpdSeLR6lX2MtY_VkrnzHXUiAo2f31lOAEjpA1q0yMs_RIbTxyShwCoKSCWXQydcVYBpMQsPVK6sN8ZHP42BlbzS8y4BXdA7Yg8EHUe60UYCcmEAHOKFQt8yGZ2hEUdocjHmIrKcvM7VJb3WHfbgXcFa0YA"
+              />
+            </div>
+            <div class="mb-12">
+              <h3 class="font-headline text-2xl text-on-surface">
+                Brother CS7000X
+              </h3>
+              <p class="text-sm text-on-surface-variant mt-1">
+                Computerized Versatility
+              </p>
+            </div>
+            <div class="space-y-16">
+              <div
+                class="h-12 flex items-center text-lg font-medium text-primary"
+              >
+                $219.00
+              </div>
+              <div class="h-12 flex items-center text-sm">
+                Quilting &amp; Garments
+              </div>
+              <div class="h-12 flex flex-col justify-center">
+                <span
+                  class="inline-flex items-center gap-2 text-sm text-tertiary"
+                >
+                  <span
+                    class="material-symbols-outlined text-[18px]"
+                    style="font-variation-settings: &quot;FILL&quot; 1"
+                    >check_circle</span
+                  >
+                  Fluid feed system
+                </span>
+                <span class="text-[11px] text-on-surface-variant/60 ml-6 italic"
+                  >Excellent for knits</span
+                >
+              </div>
+              <div class="h-12 flex items-center text-sm">
+                6.4" (Wide table incl.)
+              </div>
+              <div class="h-12 flex items-center">
+                <span
+                  class="bg-tertiary/10 text-tertiary px-3 py-1 text-[11px] font-bold uppercase tracking-wider rounded-full"
+                  >Artisan Quilter</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-span-1 bg-surface-container-low p-6 rounded-lg transition-all duration-300 hover:translate-y-[-4px] hover:bg-surface-container-high ring-1 ring-primary/20"
+          >
+            <div
+              class="mb-8 aspect-[4/5] bg-surface-container-highest rounded-sm overflow-hidden flex items-center justify-center p-4"
+            >
+              <img
+                class="w-full h-full object-cover rounded-sm grayscale-[0.2] hover:grayscale-0 transition-all duration-500"
+                data-alt="Industrial style heavy duty sewing machine detail"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVcF-GYu4zKrEAm6mp1WMYqA5mzkhCKstvpTKr8MYqeS2-1P3KoLp2-UhFTBmX_93WEEpSVeecCe5CxvzOoTzLjCqXvkmdm9o9GOY74ftk3R7IG4NDIn91xb3bAAbWyCvG5AhAeAlU3DFriBaGx2aX-h4VsuhR81Vk8nDy1cm_5fpOPo2_LuogKDrmt6q_738ibQ0NrypFAqyxU7RIk1kM_Y9TEinVLxA-pXesF7PLxAc1eb3S3a7_49KHi8NR0ytDRnp_zql8ImI"
+              />
+            </div>
+            <div class="mb-12">
+              <div class="flex justify-between items-start">
+                <div>
+                  <h3 class="font-headline text-2xl text-on-surface">
+                    Singer 4423
+                  </h3>
+                  <p class="text-sm text-on-surface-variant mt-1">
+                    Heavy Duty Strength
+                  </p>
+                </div>
+                <span
+                  class="bg-primary text-on-primary text-[10px] font-bold px-2 py-0.5 rounded-full"
+                  >TOP MATCH</span
+                >
+              </div>
+            </div>
+            <div class="space-y-16">
+              <div
+                class="h-12 flex items-center text-lg font-medium text-primary"
+              >
+                $199.99
+              </div>
+              <div class="h-12 flex items-center text-sm">
+                Upholstery &amp; Denim
+              </div>
+              <div class="h-12 flex flex-col justify-center">
+                <span
+                  class="inline-flex items-center gap-2 text-sm text-tertiary"
+                >
+                  <span
+                    class="material-symbols-outlined text-[18px]"
+                    style="font-variation-settings: &quot;FILL&quot; 1"
+                    >check_circle</span
+                  >
+                  High speed motor
+                </span>
+                <span class="text-[11px] text-on-surface-variant/60 ml-6 italic"
+                  >Perfect for 8+ layers</span
+                >
+              </div>
+              <div class="h-12 flex items-center text-sm">5.5" (Compact)</div>
+              <div class="h-12 flex items-center">
+                <span
+                  class="bg-tertiary/10 text-tertiary px-3 py-1 text-[11px] font-bold uppercase tracking-wider rounded-full"
+                  >Structural Projects</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-span-1 bg-surface-container-low p-6 rounded-lg transition-all duration-300 hover:translate-y-[-4px] hover:bg-surface-container-high"
+          >
+            <div
+              class="mb-8 aspect-[4/5] bg-surface-container-highest rounded-sm overflow-hidden flex items-center justify-center p-4"
+            >
+              <img
+                class="w-full h-full object-cover rounded-sm grayscale-[0.2] hover:grayscale-0 transition-all duration-500"
+                data-alt="Mechanical sewing machine with thread spool"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0silmK6k-B91S_7Uw1GwG67R6fkANWEhoBwDY9oPrUJM_HaLmmsG7OX9MK5gIU1FHy6EKlNLdqI7eNcEHQ3m5Ut7ZuADfNlq0sP1yS0JOyKV0EUoa4c2ncD9LYQ2cyHMFOBuIMiCoi9PlBJUxpkpFclER3drj0jN1ktuJTaoJrnFC0qjbPxaZft0CG1cSQrEEkRkTcKxAtd9lnZvn6V_KyDK3gc_pVXo3bUEVXBBcgSfEg1RL4vfVbSQ_U5e1-24rqwR8wYwjNtk"
+              />
+            </div>
+            <div class="mb-12">
+              <h3 class="font-headline text-2xl text-on-surface">
+                Brother XM2701
+              </h3>
+              <p class="text-sm text-on-surface-variant mt-1">
+                Lightweight Everyday
+              </p>
+            </div>
+            <div class="space-y-16">
+              <div
+                class="h-12 flex items-center text-lg font-medium text-primary"
+              >
+                $144.99
+              </div>
+              <div class="h-12 flex items-center text-sm">
+                Repairs &amp; Alterations
+              </div>
+              <div class="h-12 flex flex-col justify-center">
+                <span
+                  class="inline-flex items-center gap-2 text-sm text-secondary"
+                >
+                  <span class="material-symbols-outlined text-[18px]"
+                    >warning</span
+                  >
+                  Standard motor
+                </span>
+                <span class="text-[11px] text-on-surface-variant/60 ml-6 italic"
+                  >May struggle with leather</span
+                >
+              </div>
+              <div class="h-12 flex items-center text-sm">5.7"</div>
+              <div class="h-12 flex items-center">
+                <span
+                  class="bg-secondary-container/20 text-on-secondary-container px-3 py-1 text-[11px] font-bold uppercase tracking-wider rounded-full"
+                  >New Hobbyist</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section
+        class="mt-24 bg-surface-container px-8 py-12 rounded-lg flex flex-col md:flex-row items-center gap-12"
+      >
+        <div class="flex-1">
+          <span
+            class="inline-block bg-secondary-container text-on-secondary-container px-3 py-1 text-[10px] font-bold uppercase tracking-widest mb-4"
+            >Pro Advice</span
+          >
+          <h2 class="font-headline text-3xl text-on-background mb-4">
+            The Artisan's Choice
+          </h2>
+          <p class="text-on-surface-variant leading-relaxed">
+            While the
+            <span class="text-primary font-semibold">Singer 4423</span> offers
+            unparalleled power for heavy structural projects, the
+            <span class="text-primary font-semibold">Brother CS7000X</span>
+            provides the delicate precision needed for couture garment work. We
+            recommend the Singer if you plan to work with denim or heavy linen
+            regularly.
+          </p>
+        </div>
+        <div class="flex gap-4">
+          <button
+            class="px-8 py-4 bg-primary text-on-primary rounded-sm font-medium hover:bg-primary-container transition-all shadow-lg shadow-primary/10"
+          >
+            Confirm Top Match
+          </button>
+          <button
+            class="px-8 py-4 border border-outline-variant/20 text-primary rounded-sm font-medium hover:bg-surface-container-high transition-all"
+          >
+            Refine Search
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#f6f3ee] dark:bg-[#151513] w-full py-12 px-6">
+      <div
+        class="flex flex-col md:flex-row justify-between items-center gap-8 max-w-7xl mx-auto"
+      >
+        <div class="flex flex-col items-center md:items-start gap-2">
+          <span class="font-serif text-lg text-[#076767]"
+            >StitchMatch Atelier</span
+          >
+          <span
+            class="font-sans text-sm tracking-tight text-[#1c1c19]/80 dark:text-[#fcf9f4]/80"
+            >© 2024 StitchMatch Atelier. Crafted with Intention.</span
+          >
+        </div>
+        <div class="flex gap-8">
+          <a
+            class="font-sans text-sm text-[#1c1c19]/60 hover:text-[#8a4f34] transition-colors"
+            href="#"
+            >Methodology</a
+          >
+          <a
+            class="font-sans text-sm text-[#1c1c19]/60 hover:text-[#8a4f34] transition-colors"
+            href="#"
+            >Privacy Policy</a
+          >
+          <a
+            class="font-sans text-sm text-[#1c1c19]/60 hover:text-[#8a4f34] transition-colors"
+            href="#"
+            >Artisan Terms</a
+          >
+          <a
+            class="font-sans text-sm text-[#1c1c19]/60 hover:text-[#8a4f34] transition-colors"
+            href="#"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </footer>
+    <nav
+      class="md:hidden fixed bottom-0 left-0 w-full bg-[#fcf9f4]/90 dark:bg-[#1c1c19]/90 backdrop-blur-lg z-50 flex justify-around items-center pb-safe pt-2 px-2 border-t border-[#8a4f34]/10 shadow-[0_-4px_24px_rgba(138,79,52,0.04)]"
+    >
+      <a
+        class="flex flex-col items-center justify-center text-[#1c1c19]/60 dark:text-[#fcf9f4]/60 hover:bg-[#f6f3ee] dark:hover:bg-[#2a2a26] py-1 px-4"
+        href="#"
+      >
+        <span class="material-symbols-outlined">home</span>
+        <span class="font-sans text-[11px] uppercase tracking-wider mt-1"
+          >Home</span
+        >
+      </a>
+      <a
+        class="flex flex-col items-center justify-center bg-[#076767] text-[#fcf9f4] rounded-sm px-4 py-1 active:scale-90 transition-transform duration-300"
+        href="#"
+      >
+        <span
+          class="material-symbols-outlined"
+          style="font-variation-settings: &quot;FILL&quot; 1"
+          >styler</span
+        >
+        <span class="font-sans text-[11px] uppercase tracking-wider mt-1"
+          >Quiz</span
+        >
+      </a>
+      <a
+        class="flex flex-col items-center justify-center text-[#1c1c19]/60 dark:text-[#fcf9f4]/60 hover:bg-[#f6f3ee] dark:hover:bg-[#2a2a26] py-1 px-4"
+        href="#"
+      >
+        <span class="material-symbols-outlined">book_5</span>
+        <span class="font-sans text-[11px] uppercase tracking-wider mt-1"
+          >Library</span
+        >
+      </a>
+      <a
+        class="flex flex-col items-center justify-center text-[#1c1c19]/60 dark:text-[#fcf9f4]/60 hover:bg-[#f6f3ee] dark:hover:bg-[#2a2a26] py-1 px-4"
+        href="#"
+      >
+        <span class="material-symbols-outlined">person</span>
+        <span class="font-sans text-[11px] uppercase tracking-wider mt-1"
+          >Profile</span
+        >
+      </a>
+    </nav>
+  </body>
+</html>
