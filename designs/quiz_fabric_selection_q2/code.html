@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>StitchMatch Quiz - Fabric Selection</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200@800&amp;family=Inter:wght@300;400;500;600;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary-fixed-dim": "#87d3d3",
+                        "on-primary-container": "#f3fffe",
+                        "on-background": "#1c1c19",
+                        "surface-dim": "#dcdad5",
+                        "on-secondary-fixed-variant": "#6e381f",
+                        "primary-fixed": "#a3f0ef",
+                        "on-surface": "#1c1c19",
+                        "surface-bright": "#fcf9f4",
+                        "outline": "#6f7979",
+                        "on-tertiary-fixed-variant": "#1e5030",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-high": "#ebe8e3",
+                        "on-tertiary-fixed": "#00210d",
+                        "surface-variant": "#e5e2dd",
+                        "secondary-fixed-dim": "#ffb596",
+                        "secondary-fixed": "#ffdbcd",
+                        "inverse-on-surface": "#f3f0eb",
+                        "tertiary-fixed": "#b9efc4",
+                        "surface-container": "#f0ede9",
+                        "inverse-primary": "#87d3d3",
+                        "inverse-surface": "#31302d",
+                        "secondary": "#8a4f34",
+                        "on-surface-variant": "#3f4948",
+                        "on-primary-fixed-variant": "#004f50",
+                        "on-primary-fixed": "#002020",
+                        "surface": "#fcf9f4",
+                        "on-error": "#ffffff",
+                        "tertiary": "#356644",
+                        "outline-variant": "#bec9c8",
+                        "on-secondary-fixed": "#360f00",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "background": "#fcf9f4",
+                        "on-tertiary-container": "#f6fff4",
+                        "tertiary-container": "#4d7f5c",
+                        "on-primary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "error": "#ba1a1a",
+                        "surface-container-low": "#f6f3ee",
+                        "secondary-container": "#ffb191",
+                        "on-secondary-container": "#7a4228",
+                        "tertiary-fixed-dim": "#9ed3aa",
+                        "error-container": "#ffdad6",
+                        "surface-container-highest": "#e5e2dd",
+                        "primary": "#076767",
+                        "surface-tint": "#0d6969",
+                        "primary-container": "#308080"
+                    },
+                    fontFamily: {
+                        "headline": ["Newsreader", "serif"],
+                        "body": ["Inter", "sans-serif"],
+                        "label": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .stitching-line {
+            background-image: radial-gradient(circle, #8a4f34 1.5px, transparent 1.5px);
+            background-size: 24px 100%;
+            background-position: center;
+            background-repeat: repeat-x;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body min-h-screen flex flex-col">
+<!-- Top Navigation Bar (Shared Component) -->
+<nav class="fixed top-0 w-full z-50 bg-[#fcf9f4]/80 dark:bg-[#1c1c19]/80 backdrop-blur-xl transition-colors duration-300">
+<div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-headline italic text-primary">StitchMatch</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-on-surface/70 hover:text-primary transition-all duration-300 font-label" href="#">Models</a>
+<a class="text-on-surface/70 hover:text-primary transition-all duration-300 font-label" href="#">Guides</a>
+<a class="text-on-surface/70 hover:text-primary transition-all duration-300 font-label" href="#">Workshops</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="bg-primary text-on-primary px-6 py-2 rounded-sm text-sm font-medium hover:bg-primary-container transition-all scale-95 duration-200 ease-out">Start Quiz</button>
+<span class="material-symbols-outlined text-primary cursor-pointer">account_circle</span>
+</div>
+</div>
+</nav>
+<!-- Main Content Area -->
+<main class="flex-grow pt-24 pb-32 px-6 max-w-4xl mx-auto w-full">
+<!-- Progress Tracker: The "Thread" -->
+<div class="mb-16">
+<div class="flex justify-between items-center mb-4">
+<span class="font-label text-xs uppercase tracking-[0.2em] text-secondary">Step 2 of 7</span>
+<span class="font-label text-xs text-on-surface/50 italic">Material Compatibility</span>
+</div>
+<div class="relative h-[2px] w-full bg-surface-container-high">
+<!-- Thread line -->
+<div class="absolute top-0 left-0 h-full bg-primary transition-all duration-700 ease-in-out" style="width: 28.5%;"></div>
+<!-- Stitch dots -->
+<div class="absolute top-1/2 -translate-y-1/2 left-0 w-full flex justify-between px-1">
+<div class="w-2.5 h-2.5 rounded-full bg-primary border-4 border-surface"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-primary border-4 border-surface"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-surface-container-high border-4 border-surface"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-surface-container-high border-4 border-surface"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-surface-container-high border-4 border-surface"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-surface-container-high border-4 border-surface"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-surface-container-high border-4 border-surface"></div>
+</div>
+</div>
+</div>
+<!-- Question Header -->
+<div class="mb-12 text-center">
+<h1 class="font-headline text-4xl md:text-5xl lg:text-6xl text-on-surface leading-tight mb-4">What fabrics will you use most?</h1>
+<p class="font-body text-on-surface-variant max-w-lg mx-auto italic">Selecting your primary materials helps us calibrate the motor torque and needle recommendations.</p>
+</div>
+<!-- Options Grid: Bento/Asymmetric Style -->
+<div class="grid grid-cols-1 md:grid-cols-6 gap-4">
+<!-- Option 1: Cotton & Linen (Large Prominent Card) -->
+<button class="md:col-span-3 group relative flex flex-col items-start p-8 bg-surface-container-low hover:bg-surface-container-high transition-all duration-300 text-left rounded-sm">
+<span class="material-symbols-outlined text-primary mb-6 text-3xl" data-icon="eco">eco</span>
+<h3 class="font-headline text-2xl mb-2">Cotton &amp; Linen</h3>
+<p class="text-sm text-on-surface-variant leading-relaxed">Natural, breathable fibers perfect for dressmaking and light home decor.</p>
+<div class="mt-8 flex items-center text-xs font-label uppercase tracking-widest text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                    Select Material <span class="material-symbols-outlined text-sm ml-2">arrow_forward</span>
+</div>
+</button>
+<!-- Option 2: Denim & Canvas -->
+<button class="md:col-span-3 group relative flex flex-col items-start p-8 bg-surface-container-low hover:bg-surface-container-high transition-all duration-300 text-left rounded-sm">
+<span class="material-symbols-outlined text-primary mb-6 text-3xl" data-icon="layers">layers</span>
+<h3 class="font-headline text-2xl mb-2">Denim &amp; Canvas</h3>
+<p class="text-sm text-on-surface-variant leading-relaxed">Heavy-duty textiles requiring robust piercing power and reinforced seams.</p>
+<div class="mt-8 flex items-center text-xs font-label uppercase tracking-widest text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                    Select Material <span class="material-symbols-outlined text-sm ml-2">arrow_forward</span>
+</div>
+</button>
+<!-- Option 3: Knits & Stretch (Smaller/Secondary) -->
+<button class="md:col-span-2 group relative flex flex-col items-start p-8 bg-surface-container-low hover:bg-surface-container-high transition-all duration-300 text-left rounded-sm">
+<span class="material-symbols-outlined text-primary mb-6 text-3xl" data-icon="texture">texture</span>
+<h3 class="font-headline text-xl mb-2">Knits &amp; Stretch</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">Jersey, spandex, and activewear with high elasticity.</p>
+<div class="mt-4 flex items-center text-[10px] font-label uppercase tracking-widest text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                    Select Material
+                </div>
+</button>
+<!-- Option 4: Specialty -->
+<button class="md:col-span-2 group relative flex flex-col items-start p-8 bg-surface-container-low hover:bg-surface-container-high transition-all duration-300 text-left rounded-sm">
+<span class="material-symbols-outlined text-primary mb-6 text-3xl" data-icon="diamond">diamond</span>
+<h3 class="font-headline text-xl mb-2">Specialty</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">Leather, vinyl, and technical outdoor fabrics.</p>
+<div class="mt-4 flex items-center text-[10px] font-label uppercase tracking-widest text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                    Select Material
+                </div>
+</button>
+<!-- Option 5: Mixed -->
+<button class="md:col-span-2 group relative flex flex-col items-start p-8 bg-surface-container-low hover:bg-surface-container-high transition-all duration-300 text-left rounded-sm">
+<span class="material-symbols-outlined text-primary mb-6 text-3xl" data-icon="grid_view">grid_view</span>
+<h3 class="font-headline text-xl mb-2">Mixed</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed">An even blend of various weight and fiber types.</p>
+<div class="mt-4 flex items-center text-[10px] font-label uppercase tracking-widest text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                    Select Material
+                </div>
+</button>
+</div>
+<!-- Footer Actions -->
+<div class="mt-16 flex justify-between items-center">
+<button class="flex items-center gap-2 text-on-surface/50 hover:text-primary transition-colors py-2 group">
+<span class="material-symbols-outlined text-sm transition-transform group-hover:-translate-x-1">arrow_back</span>
+<span class="font-label text-sm uppercase tracking-widest">Back</span>
+</button>
+<div class="flex items-center gap-6">
+<span class="hidden md:block text-xs italic text-on-surface-variant">Press 'Enter' to confirm selection</span>
+<button class="bg-primary text-on-primary px-10 py-4 rounded-sm font-label uppercase tracking-widest text-xs hover:bg-primary-container transition-all active:scale-95">Continue</button>
+</div>
+</div>
+</main>
+<!-- Footer (Shared Component) -->
+<footer class="w-full py-12 px-6 bg-[#f6f3ee] dark:bg-[#151513] mt-auto">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8 max-w-7xl mx-auto">
+<div class="font-headline text-lg text-primary italic">StitchMatch Atelier</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-body text-sm tracking-tight text-on-surface/60 hover:text-secondary transition-colors" href="#">Methodology</a>
+<a class="font-body text-sm tracking-tight text-on-surface/60 hover:text-secondary transition-colors" href="#">Privacy Policy</a>
+<a class="font-body text-sm tracking-tight text-on-surface/60 hover:text-secondary transition-colors" href="#">Artisan Terms</a>
+<a class="font-body text-sm tracking-tight text-on-surface/60 hover:text-secondary transition-colors" href="#">Contact</a>
+</div>
+<p class="font-body text-sm tracking-tight text-on-surface/80 dark:text-surface/80">© 2024 StitchMatch Atelier. Crafted with Intention.</p>
+</div>
+</footer>
+<!-- Bottom Navigation Bar (Shared Component - Mobile Only) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full flex justify-around items-center pb-safe pt-2 px-2 bg-[#fcf9f4]/90 dark:bg-[#1c1c19]/90 backdrop-blur-lg z-50 shadow-[0_-4px_24px_rgba(138,79,52,0.04)]">
+<div class="flex flex-col items-center justify-center text-[#1c1c19]/60 dark:text-[#fcf9f4]/60 py-2">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="font-body text-[11px] uppercase tracking-wider mt-1">Home</span>
+</div>
+<div class="flex flex-col items-center justify-center bg-[#076767] text-[#fcf9f4] rounded-sm px-4 py-1">
+<span class="material-symbols-outlined" data-icon="styler">styler</span>
+<span class="font-body text-[11px] uppercase tracking-wider mt-1">Quiz</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#1c1c19]/60 dark:text-[#fcf9f4]/60 py-2">
+<span class="material-symbols-outlined" data-icon="book_5">book_5</span>
+<span class="font-body text-[11px] uppercase tracking-wider mt-1">Library</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#1c1c19]/60 dark:text-[#fcf9f4]/60 py-2">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-body text-[11px] uppercase tracking-wider mt-1">Profile</span>
+</div>
+</nav>
+</body></html>

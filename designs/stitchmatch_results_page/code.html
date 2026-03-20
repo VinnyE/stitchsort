@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>StitchMatch Results | Your Top 3 Sewing Machine Matches</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "on-secondary-container": "#7a4228",
+                "on-error": "#ffffff",
+                "primary-fixed": "#a3f0ef",
+                "primary-fixed-dim": "#87d3d3",
+                "on-tertiary-fixed-variant": "#1e5030",
+                "secondary-container": "#ffb191",
+                "tertiary-container": "#4d7f5c",
+                "on-secondary": "#ffffff",
+                "surface-variant": "#e5e2dd",
+                "inverse-surface": "#31302d",
+                "error-container": "#ffdad6",
+                "tertiary-fixed-dim": "#9ed3aa",
+                "tertiary-fixed": "#b9efc4",
+                "tertiary": "#356644",
+                "on-surface": "#1c1c19",
+                "surface-container-low": "#f6f3ee",
+                "on-primary-fixed-variant": "#004f50",
+                "primary": "#076767",
+                "surface-tint": "#0d6969",
+                "primary-container": "#308080",
+                "secondary": "#8a4f34",
+                "surface-container-lowest": "#ffffff",
+                "on-tertiary-container": "#f6fff4",
+                "surface-container": "#f0ede9",
+                "surface": "#fcf9f4",
+                "inverse-on-surface": "#f3f0eb",
+                "surface-container-high": "#ebe8e3",
+                "on-tertiary-fixed": "#00210d",
+                "on-error-container": "#93000a",
+                "on-primary-fixed": "#002020",
+                "on-primary-container": "#f3fffe",
+                "background": "#fcf9f4",
+                "error": "#ba1a1a",
+                "secondary-fixed-dim": "#ffb596",
+                "on-primary": "#ffffff",
+                "outline": "#6f7979",
+                "on-background": "#1c1c19",
+                "on-secondary-fixed-variant": "#6e381f",
+                "on-surface-variant": "#3f4948",
+                "secondary-fixed": "#ffdbcd",
+                "surface-dim": "#dcdad5",
+                "outline-variant": "#bec9c8",
+                "on-tertiary": "#ffffff",
+                "inverse-primary": "#87d3d3",
+                "surface-container-highest": "#e5e2dd",
+                "surface-bright": "#fcf9f4",
+                "on-secondary-fixed": "#360f00"
+              },
+              fontFamily: {
+                "headline": ["Newsreader", "serif"],
+                "body": ["Inter", "sans-serif"],
+                "label": ["Inter", "sans-serif"]
+              },
+              borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3 { font-family: 'Newsreader', serif; }
+    </style>
+</head>
+<body class="bg-background text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar -->
+<header class="bg-[#fcf9f4]/80 dark:bg-stone-900/80 backdrop-blur-md fixed top-0 w-full z-50 shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+<div class="font-serif text-2xl font-bold text-[#076767] dark:text-[#3D8B8B]">StitchMatch</div>
+<nav class="hidden md:flex gap-8 items-center">
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#076767] transition-colors font-sans text-sm tracking-wide" href="#">How it Works</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#076767] transition-colors font-sans text-sm tracking-wide" href="#">Machine Library</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#076767] transition-colors font-sans text-sm tracking-wide" href="#">Resources</a>
+<button class="bg-primary text-on-primary px-5 py-2 rounded-sm font-sans text-sm font-medium hover:opacity-80 transition-opacity scale-95 active:scale-90 duration-300">Start Quiz</button>
+</nav>
+<div class="md:hidden">
+<span class="material-symbols-outlined text-primary">menu</span>
+</div>
+</div>
+</header>
+<main class="pt-32 pb-24 px-6 max-w-5xl mx-auto">
+<!-- Results Header Section -->
+<section class="mb-16 text-center md:text-left">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div class="space-y-4">
+<span class="font-label uppercase tracking-widest text-secondary text-xs font-semibold">Curated Selection</span>
+<h1 class="font-headline text-4xl md:text-5xl lg:text-6xl text-on-surface leading-tight">Based on your answers, here are your top 3 matches.</h1>
+</div>
+</div>
+<div class="mt-12 bg-surface-container-low p-4 rounded-sm">
+<p class="font-body text-sm text-on-surface-variant italic">
+<span class="material-symbols-outlined align-middle text-sm mr-1" data-icon="info">info</span>
+                    Independent recommendations: We may earn a commission if you purchase through our links at no extra cost to you.
+                </p>
+</div>
+</section>
+<!-- Vertical Stack of Recommendation Cards -->
+<div class="space-y-12">
+<!-- Card 1: Best Match -->
+<article class="bg-surface-container-low group overflow-hidden flex flex-col md:flex-row gap-8 transition-colors duration-300 hover:bg-surface-container-high relative">
+<div class="absolute top-4 left-4 bg-primary text-on-primary px-3 py-1 rounded-sm text-xs font-bold tracking-widest uppercase z-10">Best Match</div>
+<div class="w-full md:w-2/5 aspect-square bg-surface-container-highest overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="White Brother computerized sewing machine for beginners" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLq4TaqfR0NCzrZdHI4ZOiHK_hsU3YXArULgbm-PTeVC7ylBR47LGrPdvBBuQi7wzoTuQEv8K1FP4KIRxitjqrsV6lr4mF_9s8Ecefoj4E6sEy3qIblM9aFvzGCXWXBNwgDlITA6ToXdPiqaKvY3OUxf4hOyLQ3QsInzhe-O2gKOtLR-q8eCMLYG2JdUp0dsnOuLgqcUAWeN6mCwof7g6jsz1VWM_i-XqHUpxRgPHVWvW1rPVxYkMOfUkt61LLtcIyQ_naOW-PoYw"/>
+</div>
+<div class="w-full md:w-3/5 p-8 md:pl-0 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start mb-4">
+<div>
+<h2 class="font-headline text-3xl text-on-surface">Brother CS7000X</h2>
+<p class="text-secondary font-medium mt-1">$180 - $220</p>
+</div>
+<div class="text-right">
+<div class="text-3xl font-headline text-primary">94%</div>
+<div class="text-[10px] uppercase tracking-widest font-bold text-on-surface-variant">Match Score</div>
+</div>
+</div>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="px-2 py-1 bg-surface-container-highest text-on-surface-variant text-[11px] font-bold rounded-sm border border-outline-variant/20 uppercase tracking-tighter">Handles cotton garments</span>
+<span class="px-2 py-1 bg-surface-container-highest text-on-surface-variant text-[11px] font-bold rounded-sm border border-outline-variant/20 uppercase tracking-tighter">Beginner-friendly computerized</span>
+<span class="px-2 py-1 bg-surface-container-highest text-on-surface-variant text-[11px] font-bold rounded-sm border border-outline-variant/20 uppercase tracking-tighter">Under $300 budget</span>
+</div>
+<p class="font-body text-on-surface-variant text-sm leading-relaxed mb-6">
+                            This machine perfectly aligns with your focus on lightweight garment construction. Its intuitive needle threader and speed control provide the "low noise" learning environment you requested.
+                        </p>
+<div class="bg-secondary-container/10 border-l-2 border-secondary p-4 mb-8">
+<p class="text-xs font-bold uppercase tracking-wider text-on-secondary-container mb-1">Watch out for</p>
+<p class="text-sm text-on-secondary-container">Struggles with heavy layers of denim or upholstery fabrics.</p>
+</div>
+</div>
+<div class="flex flex-wrap gap-4 mt-auto">
+<button class="bg-primary text-on-primary px-6 py-3 rounded-sm text-sm font-semibold flex items-center gap-2 hover:opacity-90 transition-opacity">
+                            View on Amazon
+                            <span class="material-symbols-outlined text-sm">open_in_new</span>
+</button>
+<button class="bg-transparent border border-outline-variant/30 text-primary px-6 py-3 rounded-sm text-sm font-semibold hover:bg-surface-container-highest transition-colors">
+                            SewingMachinesPlus
+                        </button>
+</div>
+</div>
+</article>
+<!-- Card 2: Strong Alternative -->
+<article class="bg-surface-container-low group overflow-hidden flex flex-col md:flex-row gap-8 transition-colors duration-300 hover:bg-surface-container-high">
+<div class="w-full md:w-2/5 aspect-square bg-surface-container-highest overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Gray Singer Heavy Duty mechanical sewing machine" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqiKNdlbjQYzNP5VbDGc-jnTNAH5wHmvBAF8S0gJ1hmgG5D2uPgcDU4G6W97PrY21bAw1H27fp-V5g_ADjexCO4N_X89Xux3QrHr2fByiY59vcJD5mjsx_Bw8z0Udkt-2tpxIdi9dOZS4LsH159_5u3yb6dhWfFovY7mOkSsNkuTKdnXiQTmvASUCDhbAMHD-k2QyoncDGshot0fCg8S8CKLGvWjMnNF8hN0Ep7gs-Wm9S2aX_8xfKdFfYjkpkStVIG233heAgLUo"/>
+</div>
+<div class="w-full md:w-3/5 p-8 md:pl-0 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start mb-4">
+<div>
+<h2 class="font-headline text-3xl text-on-surface">Singer 4423 Heavy Duty</h2>
+<p class="text-secondary font-medium mt-1">$170 - $200</p>
+</div>
+<div class="text-right">
+<div class="text-3xl font-headline text-on-surface-variant">88%</div>
+<div class="text-[10px] uppercase tracking-widest font-bold text-on-surface-variant">Match Score</div>
+</div>
+</div>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="px-2 py-1 bg-surface-container-highest text-on-surface-variant text-[11px] font-bold rounded-sm border border-outline-variant/20 uppercase tracking-tighter">Heavy fabrics</span>
+<span class="px-2 py-1 bg-surface-container-highest text-on-surface-variant text-[11px] font-bold rounded-sm border border-outline-variant/20 uppercase tracking-tighter">Mechanical simplicity</span>
+</div>
+<p class="font-body text-on-surface-variant text-sm leading-relaxed mb-6">
+                            A powerhouse alternative if you anticipate working with thicker canvas or multiple layers of quilting. It trades digital convenience for raw mechanical power and speed.
+                        </p>
+<div class="bg-surface-container-highest p-4 mb-8">
+<p class="text-xs font-bold uppercase tracking-wider text-on-surface mb-1">Tradeoff</p>
+<p class="text-sm text-on-surface-variant">Can be noticeably loud at high speeds, lacking the refinement of computerized models.</p>
+</div>
+</div>
+<div class="flex flex-wrap gap-4 mt-auto">
+<button class="bg-primary text-on-primary px-6 py-3 rounded-sm text-sm font-semibold flex items-center gap-2 hover:opacity-90 transition-opacity">
+                            View on Amazon
+                            <span class="material-symbols-outlined text-sm">open_in_new</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Card 3: Budget Option -->
+<article class="bg-surface-container-low group overflow-hidden flex flex-col md:flex-row gap-8 transition-colors duration-300 hover:bg-surface-container-high">
+<div class="w-full md:w-2/5 aspect-square bg-surface-container-highest overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Blue and white compact Brother sewing machine" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6oHneENOt3RUQgXWVSEpj6O123NVu2mkIW1m7rPTJ8mrRFvJpdIxmKK0YXsILy_vtulXo_NVJKVi0-wO4EUGB_cRPpfJSe8kpgO5EcFM1X3A4n2IPUzSu974qSj7ZRD6I4wwqLrTFYuj65gXZwinnXZYw9QJb0_QWHC1AA9Lfy0e4Ffgc6KlpjPjILkvbf9XiOt2ESB_YOV2QlpfF3b9-0lsTBNgSaBEOWB8a4sRHWgrpD2IOECi8lYj-6lGYIG6P1mjXEYzN8-c"/>
+</div>
+<div class="w-full md:w-3/5 p-8 md:pl-0 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start mb-4">
+<div>
+<h2 class="font-headline text-3xl text-on-surface">Brother XM2701</h2>
+<p class="text-secondary font-medium mt-1">$120 - $140</p>
+</div>
+<div class="text-right">
+<div class="text-3xl font-headline text-on-surface-variant">82%</div>
+<div class="text-[10px] uppercase tracking-widest font-bold text-on-surface-variant">Match Score</div>
+</div>
+</div>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="px-2 py-1 bg-surface-container-highest text-on-surface-variant text-[11px] font-bold rounded-sm border border-outline-variant/20 uppercase tracking-tighter">Great for simple repairs</span>
+</div>
+<p class="font-body text-on-surface-variant text-sm leading-relaxed mb-6">
+                            An excellent entry point if you primarily want to handle mending or simple home decor projects. It’s lightweight and easy to store in small spaces.
+                        </p>
+<div class="bg-surface-container-highest p-4 mb-8">
+<p class="text-xs font-bold uppercase tracking-wider text-on-surface mb-1">Tradeoff</p>
+<p class="text-sm text-on-surface-variant">Significantly fewer stitch options and decorative patterns compared to your top match.</p>
+</div>
+</div>
+<div class="flex flex-wrap gap-4 mt-auto">
+<button class="bg-primary text-on-primary px-6 py-3 rounded-sm text-sm font-semibold flex items-center gap-2 hover:opacity-90 transition-opacity">
+                            View on Amazon
+                            <span class="material-symbols-outlined text-sm">open_in_new</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+<!-- Comparison Table Section -->
+<section class="mt-32">
+<h2 class="font-headline text-3xl mb-12">Side-by-Side Comparison</h2>
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body text-sm">
+<thead>
+<tr class="bg-surface-container">
+<th class="p-6 font-semibold uppercase tracking-widest text-[10px]">Specification</th>
+<th class="p-6 font-headline text-lg border-l border-outline-variant/10">CS7000X</th>
+<th class="p-6 font-headline text-lg border-l border-outline-variant/10">4423 Heavy Duty</th>
+<th class="p-6 font-headline text-lg border-l border-outline-variant/10">XM2701</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-outline-variant/10">
+<tr>
+<td class="p-6 font-medium text-on-surface-variant">Typical Price</td>
+<td class="p-6 border-l border-outline-variant/10">$180-$220</td>
+<td class="p-6 border-l border-outline-variant/10">$170-$200</td>
+<td class="p-6 border-l border-outline-variant/10">$120-$140</td>
+</tr>
+<tr>
+<td class="p-6 font-medium text-on-surface-variant">Fabric Handling</td>
+<td class="p-6 border-l border-outline-variant/10">Delicates to Medium</td>
+<td class="p-6 border-l border-outline-variant/10">Medium to Heavy</td>
+<td class="p-6 border-l border-outline-variant/10">Lightweight Only</td>
+</tr>
+<tr>
+<td class="p-6 font-medium text-on-surface-variant">Throat Space</td>
+<td class="p-6 border-l border-outline-variant/10">6.4" (Standard)</td>
+<td class="p-6 border-l border-outline-variant/10">6.0" (Compact)</td>
+<td class="p-6 border-l border-outline-variant/10">5.8" (Small)</td>
+</tr>
+<tr>
+<td class="p-6 font-medium text-on-surface-variant">Bobbin Type</td>
+<td class="p-6 border-l border-outline-variant/10">Top Drop-in (Clear)</td>
+<td class="p-6 border-l border-outline-variant/10">Top Drop-in (Clear)</td>
+<td class="p-6 border-l border-outline-variant/10">Top Drop-in (Clear)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="mt-24 text-center py-16 bg-surface-container-low rounded-sm">
+<h3 class="font-headline text-2xl mb-4">Not quite what you were looking for?</h3>
+<p class="font-body text-on-surface-variant mb-8 max-w-md mx-auto">Update your preferences to see a new set of curated machines tailored to your project goals.</p>
+<button class="bg-secondary text-on-secondary px-8 py-4 rounded-sm font-semibold flex items-center gap-2 mx-auto hover:opacity-90 transition-opacity">
+<span class="material-symbols-outlined text-sm">refresh</span>
+                Retake Quiz
+            </button>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#f6f3ee] dark:bg-stone-800 w-full border-t border-[#8a4f34]/10 pt-12 pb-8">
+<div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="font-serif text-lg font-semibold text-stone-800 dark:text-stone-100">StitchMatch</div>
+<div class="flex gap-8">
+<a class="text-stone-500 dark:text-stone-400 font-sans text-sm tracking-wide hover:text-[#8a4f34] transition-colors" href="#">Methodology</a>
+<a class="text-stone-500 dark:text-stone-400 font-sans text-sm tracking-wide hover:text-[#8a4f34] transition-colors" href="#">Affiliate Disclosure</a>
+<a class="text-stone-500 dark:text-stone-400 font-sans text-sm tracking-wide hover:text-[#8a4f34] transition-colors" href="#">Privacy Policy</a>
+<a class="text-stone-500 dark:text-stone-400 font-sans text-sm tracking-wide hover:text-[#8a4f34] transition-colors" href="#">Contact</a>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-6 mt-8">
+<p class="text-center md:text-left text-stone-500 dark:text-stone-400 font-sans text-sm tracking-wide">© 2024 StitchMatch. Independent recommendations for every sewist.</p>
+</div>
+</footer>
+</body></html>

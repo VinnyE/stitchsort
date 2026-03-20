@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary-fixed-dim": "#87d3d3",
+              "on-primary-container": "#f3fffe",
+              "on-background": "#1c1c19",
+              "surface-dim": "#dcdad5",
+              "on-secondary-fixed-variant": "#6e381f",
+              "primary-fixed": "#a3f0ef",
+              "on-surface": "#1c1c19",
+              "surface-bright": "#fcf9f4",
+              "outline": "#6f7979",
+              "on-tertiary-fixed-variant": "#1e5030",
+              "on-tertiary": "#ffffff",
+              "surface-container-high": "#ebe8e3",
+              "on-tertiary-fixed": "#00210d",
+              "surface-variant": "#e5e2dd",
+              "secondary-fixed-dim": "#ffb596",
+              "secondary-fixed": "#ffdbcd",
+              "inverse-on-surface": "#f3f0eb",
+              "tertiary-fixed": "#b9efc4",
+              "surface-container": "#f0ede9",
+              "inverse-primary": "#87d3d3",
+              "inverse-surface": "#31302d",
+              "secondary": "#8a4f34",
+              "on-surface-variant": "#3f4948",
+              "on-primary-fixed-variant": "#004f50",
+              "on-primary-fixed": "#002020",
+              "surface": "#fcf9f4",
+              "on-error": "#ffffff",
+              "tertiary": "#356644",
+              "outline-variant": "#bec9c8",
+              "on-secondary-fixed": "#360f00",
+              "surface-container-lowest": "#ffffff",
+              "on-secondary": "#ffffff",
+              "background": "#fcf9f4",
+              "on-tertiary-container": "#f6fff4",
+              "tertiary-container": "#4d7f5c",
+              "on-primary": "#ffffff",
+              "on-error-container": "#93000a",
+              "error": "#ba1a1a",
+              "surface-container-low": "#f6f3ee",
+              "secondary-container": "#ffb191",
+              "on-secondary-container": "#7a4228",
+              "tertiary-fixed-dim": "#9ed3aa",
+              "error-container": "#ffdad6",
+              "surface-container-highest": "#e5e2dd",
+              "primary": "#076767",
+              "surface-tint": "#0d6969",
+              "primary-container": "#308080"
+            },
+            fontFamily: {
+              "headline": ["Newsreader", "serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #fcf9f4;
+        color: #1c1c19;
+      }
+      h1, h2, h3 {
+        font-family: 'Newsreader', serif;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-[#fcf9f4]/80 dark:bg-[#1c1c19]/80 backdrop-blur-xl transition-colors duration-300">
+<div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-serif italic text-[#076767] dark:text-[#3D8B8B]">StitchMatch</div>
+<div class="flex items-center gap-4">
+<button class="bg-primary text-on-primary px-4 py-1.5 rounded-sm text-sm font-medium hover:bg-primary-container transition-all active:scale-95">
+                    Start Quiz
+                </button>
+<span class="material-symbols-outlined text-[#076767] cursor-pointer" style="font-size: 28px;">account_circle</span>
+</div>
+</div>
+</header>
+<main class="pt-20 pb-24">
+<!-- Hero Section -->
+<section class="px-6 py-12 flex flex-col items-center text-center">
+<span class="font-label text-xs uppercase tracking-[0.2em] text-secondary mb-4">The Atelier Guide</span>
+<h1 class="text-5xl md:text-6xl font-headline text-on-surface leading-tight mb-8">
+                Which sewing machine is <span class="italic text-primary">right for you?</span>
+</h1>
+<!-- Hero Imagery (Editorial Style) -->
+<div class="w-full aspect-[4/5] relative mb-12 rounded-sm overflow-hidden bg-surface-container">
+<img alt="Vintage sewing machine on a wooden desk" class="w-full h-full object-cover" data-alt="Vintage sewing machine on sunlit wooden desk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAG8N_oOkk8vO4QTLRkHCmDlu5e4UoY0y1zId7aZ6WRALFvs7mNefLANvD-PhMQrZettUFBwcXqsco6KHwCkTgRtzNiYRoCZaGVmTKEOtyV8HKa3mMnicUv74e-JgB8W359Ohsik5gtYtwM8O-zQ6BrH7veiaw8LQBRfD4IM769IeKk-yLh6WEUPysDukFad04E7TBC3khImSHEwxu6EoE58wiODHwFGB0GungRST9Xt_y7LeZf_h6RCqSCQ4Luzvf83OhNKuImWiQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent"></div>
+</div>
+<button class="w-full bg-primary text-on-primary py-5 rounded-sm text-lg font-medium shadow-sm hover:bg-primary-container transition-all active:scale-95 flex justify-center items-center gap-2">
+                Take the Quiz
+                <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</section>
+<!-- Trust Signals (Vertical Stack) -->
+<section class="bg-surface-container-low py-16 px-6">
+<div class="max-w-md mx-auto space-y-12">
+<div class="flex flex-col items-center text-center space-y-4">
+<div class="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" style="font-size: 24px;">verified_user</span>
+</div>
+<div>
+<h3 class="text-xl font-headline mb-2">Free &amp; Independent</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed font-body">
+                            Our recommendations are unbiased. We are not paid by brands to favor their machines.
+                        </p>
+</div>
+</div>
+<div class="flex flex-col items-center text-center space-y-4">
+<div class="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" style="font-size: 24px;">grid_view</span>
+</div>
+<div>
+<h3 class="text-xl font-headline mb-2">Cross-Brand</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed font-body">
+                            Comparing Brother, Janome, Singer, and boutique Swiss manufacturers in one place.
+                        </p>
+</div>
+</div>
+<div class="flex flex-col items-center text-center space-y-4">
+<div class="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" style="font-size: 24px;">visibility</span>
+</div>
+<div>
+<h3 class="text-xl font-headline mb-2">Transparent Methodology</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed font-body">
+                            Every score is based on raw data: stitch speed, motor torque, and long-term durability.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Signature "Thread" Divider -->
+<div class="py-12 flex justify-center items-center gap-2 overflow-hidden">
+<div class="h-[1.5px] w-24 bg-secondary/20"></div>
+<div class="w-2 h-2 rounded-full bg-primary"></div>
+<div class="h-[1.5px] w-48 bg-secondary/20 flex justify-center items-center">
+<div class="w-2 h-2 rounded-full bg-secondary"></div>
+</div>
+<div class="w-2 h-2 rounded-full bg-primary"></div>
+<div class="h-[1.5px] w-24 bg-secondary/20"></div>
+</div>
+<!-- Secondary Callout -->
+<section class="px-6 py-8">
+<div class="bg-secondary-container p-8 rounded-sm">
+<span class="font-label text-[10px] uppercase tracking-widest text-on-secondary-container font-bold mb-4 block">Artisan Tip</span>
+<p class="font-headline text-lg text-on-secondary-container italic">
+                    "The best machine is not the most expensive one, but the one that disappears into your creative process."
+                </p>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-12 px-6 bg-[#f6f3ee] dark:bg-[#151513] mb-16">
+<div class="flex flex-col items-center gap-8 max-w-7xl mx-auto">
+<div class="font-serif text-lg text-[#076767]">StitchMatch Atelier</div>
+<nav class="flex flex-wrap justify-center gap-6">
+<a class="font-sans text-sm tracking-tight text-[#1c1c19]/60 hover:text-[#8a4f34] transition-colors" href="#">Methodology</a>
+<a class="font-sans text-sm tracking-tight text-[#1c1c19]/60 hover:text-[#8a4f34] transition-colors" href="#">Privacy Policy</a>
+<a class="font-sans text-sm tracking-tight text-[#1c1c19]/60 hover:text-[#8a4f34] transition-colors" href="#">Contact</a>
+</nav>
+<p class="font-sans text-xs tracking-tight text-[#1c1c19]/80 dark:text-[#fcf9f4]/80 text-center">
+                © 2024 StitchMatch Atelier. Crafted with Intention.
+            </p>
+</div>
+</footer>
+<!-- BottomNavBar -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full flex justify-around items-center pb-safe pt-2 px-2 bg-[#fcf9f4]/90 dark:bg-[#1c1c19]/90 backdrop-blur-lg z-50 shadow-[0_-4px_24px_rgba(138,79,52,0.04)]">
+<div class="flex flex-col items-center justify-center bg-[#076767] text-[#fcf9f4] rounded-sm px-4 py-1 transition-all">
+<span class="material-symbols-outlined" style="font-size: 20px;">home</span>
+<span class="font-sans text-[11px] uppercase tracking-wider mt-0.5">Home</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#1c1c19]/60 dark:text-[#fcf9f4]/60 hover:bg-[#f6f3ee]">
+<span class="material-symbols-outlined" style="font-size: 20px;">styler</span>
+<span class="font-sans text-[11px] uppercase tracking-wider mt-0.5">Quiz</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#1c1c19]/60 dark:text-[#fcf9f4]/60 hover:bg-[#f6f3ee]">
+<span class="material-symbols-outlined" style="font-size: 20px;">book_5</span>
+<span class="font-sans text-[11px] uppercase tracking-wider mt-0.5">Library</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#1c1c19]/60 dark:text-[#fcf9f4]/60 hover:bg-[#f6f3ee]">
+<span class="material-symbols-outlined" style="font-size: 20px;">person</span>
+<span class="font-sans text-[11px] uppercase tracking-wider mt-0.5">Profile</span>
+</div>
+</nav>
+</body></html>
