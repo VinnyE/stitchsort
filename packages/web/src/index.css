@@ -1,0 +1,151 @@
+:root {
+  color-scheme: light;
+  font-family:
+    "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background:
+    radial-gradient(circle at top, rgba(215, 228, 243, 0.8), transparent 40%),
+    linear-gradient(180deg, #f6f1e7 0%, #efe3cf 100%);
+  color: #1f2933;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  border: 0;
+  border-radius: 999px;
+  background: #1c4a43;
+  color: #f7fbf7;
+  cursor: pointer;
+  padding: 0.8rem 1.25rem;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 1px solid rgba(28, 74, 67, 0.2);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.82);
+  padding: 0.9rem 1rem;
+}
+
+a {
+  color: #1c4a43;
+}
+
+.shell {
+  width: min(1120px, calc(100vw - 2rem));
+  margin: 0 auto;
+  padding: 2rem 0 3rem;
+}
+
+.hero,
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.hero {
+  grid-template-columns: 1fr auto;
+  align-items: start;
+  margin-bottom: 1.5rem;
+}
+
+.grid {
+  grid-template-columns: minmax(280px, 360px) 1fr;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(28, 74, 67, 0.14);
+  border-radius: 24px;
+  box-shadow: 0 20px 60px rgba(53, 54, 39, 0.08);
+  padding: 1.5rem;
+  backdrop-filter: blur(12px);
+}
+
+.auth-card {
+  width: min(440px, 100%);
+  margin: 10vh auto 0;
+}
+
+.stack {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.75rem;
+  color: #765539;
+}
+
+.muted,
+.meta {
+  color: #5a6773;
+}
+
+.secondary {
+  background: rgba(28, 74, 67, 0.1);
+  color: #1c4a43;
+}
+
+.danger {
+  background: rgba(127, 29, 29, 0.1);
+  color: #7f1d1d;
+}
+
+.item {
+  border-top: 1px solid rgba(28, 74, 67, 0.14);
+  padding-top: 1rem;
+}
+
+.item:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: start;
+}
+
+.download {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.error {
+  color: #7f1d1d;
+}
+
+@media (max-width: 900px) {
+  .hero,
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
