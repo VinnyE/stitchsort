@@ -69,8 +69,14 @@ export default function QuizPage() {
         ? "grid grid-cols-1 md:grid-cols-2 gap-4"
         : "grid grid-cols-1 md:grid-cols-3 gap-4";
 
-  // For bento layout, determine col-span per option
-  const bentoSpans = [3, 3, 2, 2, 2];
+  // Static bento col-span classes (must be full strings for Tailwind JIT)
+  const bentoClasses = [
+    "md:col-span-3",
+    "md:col-span-3",
+    "md:col-span-2",
+    "md:col-span-2",
+    "md:col-span-2",
+  ];
 
   return (
     <div className="flex-grow px-6 max-w-4xl mx-auto w-full pb-32">
@@ -94,20 +100,12 @@ export default function QuizPage() {
       <div className={gridClasses}>
         {step.options.map((option, i) => {
           const isBento = step.layout === "bento";
-          const colSpan = isBento ? bentoSpans[i] || 2 : undefined;
           const isLarge = isBento ? i < 2 : step.columns === 2;
 
           return (
             <div
               key={option.id}
-              className={isBento ? `md:col-span-${colSpan}` : ""}
-              style={
-                isBento
-                  ? {
-                      gridColumn: `span ${colSpan} / span ${colSpan}`,
-                    }
-                  : undefined
-              }
+              className={isBento ? bentoClasses[i] ?? "" : ""}
             >
               <QuizOption
                 icon={option.icon}
