@@ -488,9 +488,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -583,10 +581,7 @@
         "needs=easy_setup",
         "use_case in [general_sewing,light_quilting]"
       ],
-      "avoid_when": [
-        "needs=heavy_duty_daily_use",
-        "prefers=mechanical_only"
-      ],
+      "avoid_when": ["needs=heavy_duty_daily_use", "prefers=mechanical_only"],
       "strengths": [
         "Very strong beginner coverage for the price",
         "Wide enough feature set to delay upgrade pressure",
@@ -636,32 +631,16 @@
         "brother-cs7000x_review"
       ],
       "source_map": {
-        "identity": [
-          "brother-cs7000x_official"
-        ],
-        "specs": [
-          "brother-cs7000x_official"
-        ],
-        "price": [
-          "brother-cs7000x_retailer"
-        ],
-        "availability": [
-          "brother-cs7000x_retailer"
-        ],
-        "performance": [
-          "brother-cs7000x_review"
-        ],
-        "reliability": [
-          "brother-cs7000x_review"
-        ],
-        "known_issues": [
-          "brother-cs7000x_review"
-        ]
+        "identity": ["brother-cs7000x_official"],
+        "specs": ["brother-cs7000x_official"],
+        "price": ["brother-cs7000x_retailer"],
+        "availability": ["brother-cs7000x_retailer"],
+        "performance": ["brother-cs7000x_review"],
+        "reliability": ["brother-cs7000x_review"],
+        "known_issues": ["brother-cs7000x_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "budget_computerized"
-      ]
+      "segments": ["budget_computerized"]
     },
     {
       "product_id": "janome-hd3000",
@@ -691,9 +670,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -835,32 +812,16 @@
         "janome-hd3000_review"
       ],
       "source_map": {
-        "identity": [
-          "janome-hd3000_official"
-        ],
-        "specs": [
-          "janome-hd3000_official"
-        ],
-        "price": [
-          "janome-hd3000_retailer"
-        ],
-        "availability": [
-          "janome-hd3000_retailer"
-        ],
-        "performance": [
-          "janome-hd3000_review"
-        ],
-        "reliability": [
-          "janome-hd3000_review"
-        ],
-        "known_issues": [
-          "janome-hd3000_review"
-        ]
+        "identity": ["janome-hd3000_official"],
+        "specs": ["janome-hd3000_official"],
+        "price": ["janome-hd3000_retailer"],
+        "availability": ["janome-hd3000_retailer"],
+        "performance": ["janome-hd3000_review"],
+        "reliability": ["janome-hd3000_review"],
+        "known_issues": ["janome-hd3000_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "mid_range"
-      ]
+      "segments": ["mid_range"]
     },
     {
       "product_id": "juki-hzl-f300",
@@ -890,9 +851,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -983,10 +942,7 @@
         "wants=better_stitch_quality",
         "skill_level in [advanced_beginner,intermediate,advanced]"
       ],
-      "avoid_when": [
-        "needs=entry_level_price",
-        "needs=embroidery"
-      ],
+      "avoid_when": ["needs=entry_level_price", "needs=embroidery"],
       "strengths": [
         "One of the strongest all-purpose sewing upgrades before the dealer-premium tier",
         "Very useful quality anchor for stitch-quality-first users",
@@ -1035,32 +991,16 @@
         "juki-hzl-f300_review"
       ],
       "source_map": {
-        "identity": [
-          "juki-hzl-f300_official"
-        ],
-        "specs": [
-          "juki-hzl-f300_official"
-        ],
-        "price": [
-          "juki-hzl-f300_retailer"
-        ],
-        "availability": [
-          "juki-hzl-f300_retailer"
-        ],
-        "performance": [
-          "juki-hzl-f300_review"
-        ],
-        "reliability": [
-          "juki-hzl-f300_review"
-        ],
-        "known_issues": [
-          "juki-hzl-f300_review"
-        ]
+        "identity": ["juki-hzl-f300_official"],
+        "specs": ["juki-hzl-f300_official"],
+        "price": ["juki-hzl-f300_retailer"],
+        "availability": ["juki-hzl-f300_retailer"],
+        "performance": ["juki-hzl-f300_review"],
+        "reliability": ["juki-hzl-f300_review"],
+        "known_issues": ["juki-hzl-f300_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "mid_range"
-      ]
+      "segments": ["mid_range"]
     },
     {
       "product_id": "juki-tl-2010q",
@@ -1090,9 +1030,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -1182,10 +1120,7 @@
         "needs=straight_stitch_specialist",
         "budget_max<=1300"
       ],
-      "avoid_when": [
-        "needs=general_purpose_machine",
-        "skill_level=beginner"
-      ],
+      "avoid_when": ["needs=general_purpose_machine", "skill_level=beginner"],
       "strengths": [
         "Canonical specialist answer for a major quilting/bag-making query family",
         "High trust among experienced sewists",
@@ -1234,32 +1169,16 @@
         "juki-tl-2010q_review"
       ],
       "source_map": {
-        "identity": [
-          "juki-tl-2010q_official"
-        ],
-        "specs": [
-          "juki-tl-2010q_official"
-        ],
-        "price": [
-          "juki-tl-2010q_retailer"
-        ],
-        "availability": [
-          "juki-tl-2010q_retailer"
-        ],
-        "performance": [
-          "juki-tl-2010q_review"
-        ],
-        "reliability": [
-          "juki-tl-2010q_review"
-        ],
-        "known_issues": [
-          "juki-tl-2010q_review"
-        ]
+        "identity": ["juki-tl-2010q_official"],
+        "specs": ["juki-tl-2010q_official"],
+        "price": ["juki-tl-2010q_retailer"],
+        "availability": ["juki-tl-2010q_retailer"],
+        "performance": ["juki-tl-2010q_review"],
+        "reliability": ["juki-tl-2010q_review"],
+        "known_issues": ["juki-tl-2010q_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "quilting_focused"
-      ]
+      "segments": ["quilting_focused"]
     },
     {
       "product_id": "brother-pq1500sl",
@@ -1289,9 +1208,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -1433,32 +1350,16 @@
         "brother-pq1500sl_review"
       ],
       "source_map": {
-        "identity": [
-          "brother-pq1500sl_official"
-        ],
-        "specs": [
-          "brother-pq1500sl_official"
-        ],
-        "price": [
-          "brother-pq1500sl_retailer"
-        ],
-        "availability": [
-          "brother-pq1500sl_retailer"
-        ],
-        "performance": [
-          "brother-pq1500sl_review"
-        ],
-        "reliability": [
-          "brother-pq1500sl_review"
-        ],
-        "known_issues": [
-          "brother-pq1500sl_review"
-        ]
+        "identity": ["brother-pq1500sl_official"],
+        "specs": ["brother-pq1500sl_official"],
+        "price": ["brother-pq1500sl_retailer"],
+        "availability": ["brother-pq1500sl_retailer"],
+        "performance": ["brother-pq1500sl_review"],
+        "reliability": ["brother-pq1500sl_review"],
+        "known_issues": ["brother-pq1500sl_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "quilting_focused"
-      ]
+      "segments": ["quilting_focused"]
     },
     {
       "product_id": "brother-se700",
@@ -1487,9 +1388,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -1630,33 +1529,16 @@
         "brother-se700_review"
       ],
       "source_map": {
-        "identity": [
-          "brother-se700_official"
-        ],
-        "specs": [
-          "brother-se700_official"
-        ],
-        "price": [
-          "brother-se700_retailer"
-        ],
-        "availability": [
-          "brother-se700_retailer"
-        ],
-        "performance": [
-          "brother-se700_review"
-        ],
-        "reliability": [
-          "brother-se700_review"
-        ],
-        "known_issues": [
-          "brother-se700_review"
-        ]
+        "identity": ["brother-se700_official"],
+        "specs": ["brother-se700_official"],
+        "price": ["brother-se700_retailer"],
+        "availability": ["brother-se700_retailer"],
+        "performance": ["brother-se700_review"],
+        "reliability": ["brother-se700_review"],
+        "known_issues": ["brother-se700_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "mid_range",
-        "embroidery"
-      ]
+      "segments": ["mid_range", "embroidery"]
     },
     {
       "product_id": "janome-4120qdc-g",
@@ -1686,9 +1568,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -1778,10 +1658,7 @@
         "wants=compact_upgrade",
         "needs=garment_or_light_quilting"
       ],
-      "avoid_when": [
-        "needs=serious_quilting_workspace",
-        "budget_max<600"
-      ],
+      "avoid_when": ["needs=serious_quilting_workspace", "budget_max<600"],
       "strengths": [
         "One of the clearest hobbyist upgrade answers below premium dealer tiers",
         "Balances garment and quilting use better than many mid-range machines",
@@ -1830,33 +1707,16 @@
         "janome-4120qdc-g_review"
       ],
       "source_map": {
-        "identity": [
-          "janome-4120qdc-g_official"
-        ],
-        "specs": [
-          "janome-4120qdc-g_official"
-        ],
-        "price": [
-          "janome-4120qdc-g_retailer"
-        ],
-        "availability": [
-          "janome-4120qdc-g_retailer"
-        ],
-        "performance": [
-          "janome-4120qdc-g_review"
-        ],
-        "reliability": [
-          "janome-4120qdc-g_review"
-        ],
-        "known_issues": [
-          "janome-4120qdc-g_review"
-        ]
+        "identity": ["janome-4120qdc-g_official"],
+        "specs": ["janome-4120qdc-g_official"],
+        "price": ["janome-4120qdc-g_retailer"],
+        "availability": ["janome-4120qdc-g_retailer"],
+        "performance": ["janome-4120qdc-g_review"],
+        "reliability": ["janome-4120qdc-g_review"],
+        "known_issues": ["janome-4120qdc-g_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "mid_range",
-        "quilting_focused"
-      ]
+      "segments": ["mid_range", "quilting_focused"]
     },
     {
       "product_id": "brother-xr9550",
@@ -1865,12 +1725,7 @@
       "full_name": "Brother XR9550 Computerized Sewing and Quilting Machine",
       "status": "current",
       "category": "consumer sewing machines",
-      "subcategories": [
-        "computerized",
-        "beginner",
-        "portable",
-        "feature_rich"
-      ],
+      "subcategories": ["computerized", "beginner", "portable", "feature_rich"],
       "official_url": null,
       "image_url": null,
       "launch_year": null,
@@ -1886,9 +1741,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -2031,32 +1884,16 @@
         "brother-xr9550_review"
       ],
       "source_map": {
-        "identity": [
-          "brother-xr9550_official"
-        ],
-        "specs": [
-          "brother-xr9550_official"
-        ],
-        "price": [
-          "brother-xr9550_retailer"
-        ],
-        "availability": [
-          "brother-xr9550_retailer"
-        ],
-        "performance": [
-          "brother-xr9550_review"
-        ],
-        "reliability": [
-          "brother-xr9550_review"
-        ],
-        "known_issues": [
-          "brother-xr9550_review"
-        ]
+        "identity": ["brother-xr9550_official"],
+        "specs": ["brother-xr9550_official"],
+        "price": ["brother-xr9550_retailer"],
+        "availability": ["brother-xr9550_retailer"],
+        "performance": ["brother-xr9550_review"],
+        "reliability": ["brother-xr9550_review"],
+        "known_issues": ["brother-xr9550_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "budget_computerized"
-      ]
+      "segments": ["budget_computerized"]
     },
     {
       "product_id": "juki-hzl-dx5",
@@ -2086,9 +1923,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -2179,10 +2014,7 @@
         "prioritizes=stitch_quality_and_feed",
         "skill_level in [intermediate,advanced]"
       ],
-      "avoid_when": [
-        "needs=embroidery",
-        "wants=budget_value"
-      ],
+      "avoid_when": ["needs=embroidery", "wants=budget_value"],
       "strengths": [
         "High-end sewing-focused answer with very strong enthusiast credibility",
         "Adds a premium non-embroidery alternative to dealer-brand upgrade paths",
@@ -2231,32 +2063,16 @@
         "juki-hzl-dx5_review"
       ],
       "source_map": {
-        "identity": [
-          "juki-hzl-dx5_official"
-        ],
-        "specs": [
-          "juki-hzl-dx5_official"
-        ],
-        "price": [
-          "juki-hzl-dx5_retailer"
-        ],
-        "availability": [
-          "juki-hzl-dx5_retailer"
-        ],
-        "performance": [
-          "juki-hzl-dx5_review"
-        ],
-        "reliability": [
-          "juki-hzl-dx5_review"
-        ],
-        "known_issues": [
-          "juki-hzl-dx5_review"
-        ]
+        "identity": ["juki-hzl-dx5_official"],
+        "specs": ["juki-hzl-dx5_official"],
+        "price": ["juki-hzl-dx5_retailer"],
+        "availability": ["juki-hzl-dx5_retailer"],
+        "performance": ["juki-hzl-dx5_review"],
+        "reliability": ["juki-hzl-dx5_review"],
+        "known_issues": ["juki-hzl-dx5_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "premium"
-      ]
+      "segments": ["premium"]
     },
     {
       "product_id": "brother-pe900",
@@ -2265,11 +2081,7 @@
       "full_name": "Brother PE900 Embroidery Machine",
       "status": "current",
       "category": "consumer sewing machines",
-      "subcategories": [
-        "embroidery_only",
-        "beginner_embroidery",
-        "crafting"
-      ],
+      "subcategories": ["embroidery_only", "beginner_embroidery", "crafting"],
       "official_url": null,
       "image_url": null,
       "launch_year": null,
@@ -2285,9 +2097,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -2376,10 +2186,7 @@
         "already_owns=sewing_machine",
         "budget_max<=900"
       ],
-      "avoid_when": [
-        "needs=normal_sewing",
-        "budget_max<600"
-      ],
+      "avoid_when": ["needs=normal_sewing", "budget_max<600"],
       "strengths": [
         "Embroidery-only coverage is materially different from combo-machine coverage",
         "5x7 class size is a meaningful step up from 4x4 models",
@@ -2428,32 +2235,16 @@
         "brother-pe900_review"
       ],
       "source_map": {
-        "identity": [
-          "brother-pe900_official"
-        ],
-        "specs": [
-          "brother-pe900_official"
-        ],
-        "price": [
-          "brother-pe900_retailer"
-        ],
-        "availability": [
-          "brother-pe900_retailer"
-        ],
-        "performance": [
-          "brother-pe900_review"
-        ],
-        "reliability": [
-          "brother-pe900_review"
-        ],
-        "known_issues": [
-          "brother-pe900_review"
-        ]
+        "identity": ["brother-pe900_official"],
+        "specs": ["brother-pe900_official"],
+        "price": ["brother-pe900_retailer"],
+        "availability": ["brother-pe900_retailer"],
+        "performance": ["brother-pe900_review"],
+        "reliability": ["brother-pe900_review"],
+        "known_issues": ["brother-pe900_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "embroidery"
-      ]
+      "segments": ["embroidery"]
     },
     {
       "product_id": "brother-st371hd",
@@ -2483,9 +2274,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -2627,32 +2416,16 @@
         "brother-st371hd_review"
       ],
       "source_map": {
-        "identity": [
-          "brother-st371hd_official"
-        ],
-        "specs": [
-          "brother-st371hd_official"
-        ],
-        "price": [
-          "brother-st371hd_retailer"
-        ],
-        "availability": [
-          "brother-st371hd_retailer"
-        ],
-        "performance": [
-          "brother-st371hd_review"
-        ],
-        "reliability": [
-          "brother-st371hd_review"
-        ],
-        "known_issues": [
-          "brother-st371hd_review"
-        ]
+        "identity": ["brother-st371hd_official"],
+        "specs": ["brother-st371hd_official"],
+        "price": ["brother-st371hd_retailer"],
+        "availability": ["brother-st371hd_retailer"],
+        "performance": ["brother-st371hd_review"],
+        "reliability": ["brother-st371hd_review"],
+        "known_issues": ["brother-st371hd_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "budget_computerized"
-      ]
+      "segments": ["budget_computerized"]
     },
     {
       "product_id": "singer-quantum-stylist-9960",
@@ -2682,9 +2455,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -2774,10 +2545,7 @@
         "needs=garment_features",
         "wants=auto_thread_cut"
       ],
-      "avoid_when": [
-        "needs=heavy_fabric_specialist",
-        "prefers=mechanical"
-      ],
+      "avoid_when": ["needs=heavy_fabric_specialist", "prefers=mechanical"],
       "strengths": [
         "Highly useful mid-range feature anchor",
         "Covers garment-focused shoppers better than most budget machines do",
@@ -2827,32 +2595,16 @@
         "singer-quantum-stylist-9960_review"
       ],
       "source_map": {
-        "identity": [
-          "singer-quantum-stylist-9960_official"
-        ],
-        "specs": [
-          "singer-quantum-stylist-9960_official"
-        ],
-        "price": [
-          "singer-quantum-stylist-9960_retailer"
-        ],
-        "availability": [
-          "singer-quantum-stylist-9960_retailer"
-        ],
-        "performance": [
-          "singer-quantum-stylist-9960_review"
-        ],
-        "reliability": [
-          "singer-quantum-stylist-9960_review"
-        ],
-        "known_issues": [
-          "singer-quantum-stylist-9960_review"
-        ]
+        "identity": ["singer-quantum-stylist-9960_official"],
+        "specs": ["singer-quantum-stylist-9960_official"],
+        "price": ["singer-quantum-stylist-9960_retailer"],
+        "availability": ["singer-quantum-stylist-9960_retailer"],
+        "performance": ["singer-quantum-stylist-9960_review"],
+        "reliability": ["singer-quantum-stylist-9960_review"],
+        "known_issues": ["singer-quantum-stylist-9960_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "mid_range"
-      ]
+      "segments": ["mid_range"]
     },
     {
       "product_id": "janome-skyline-s3-anniversary-edition",
@@ -2882,9 +2634,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -2939,10 +2689,7 @@
           "buyers who want Janome refinement before going ultra-premium",
           "garment and quilting crossover with more workspace"
         ],
-        "not_ideal_for": [
-          "casual sewers",
-          "people who mainly want embroidery"
-        ]
+        "not_ideal_for": ["casual sewers", "people who mainly want embroidery"]
       },
       "decision_specs": {
         "machine_class": "computerized",
@@ -2974,10 +2721,7 @@
         "needs=more_workspace",
         "wants=smoother_upgrade"
       ],
-      "avoid_when": [
-        "needs=embroidery",
-        "skill_level=beginner"
-      ],
+      "avoid_when": ["needs=embroidery", "skill_level=beginner"],
       "strengths": [
         "Strong premium-but-not-astronomical upgrade point",
         "Improves workspace and refinement without forcing an embroidery or straight-stitch specialization",
@@ -3026,32 +2770,16 @@
         "janome-skyline-s3-anniversary-edition_review"
       ],
       "source_map": {
-        "identity": [
-          "janome-skyline-s3-anniversary-edition_official"
-        ],
-        "specs": [
-          "janome-skyline-s3-anniversary-edition_official"
-        ],
-        "price": [
-          "janome-skyline-s3-anniversary-edition_retailer"
-        ],
-        "availability": [
-          "janome-skyline-s3-anniversary-edition_retailer"
-        ],
-        "performance": [
-          "janome-skyline-s3-anniversary-edition_review"
-        ],
-        "reliability": [
-          "janome-skyline-s3-anniversary-edition_review"
-        ],
-        "known_issues": [
-          "janome-skyline-s3-anniversary-edition_review"
-        ]
+        "identity": ["janome-skyline-s3-anniversary-edition_official"],
+        "specs": ["janome-skyline-s3-anniversary-edition_official"],
+        "price": ["janome-skyline-s3-anniversary-edition_retailer"],
+        "availability": ["janome-skyline-s3-anniversary-edition_retailer"],
+        "performance": ["janome-skyline-s3-anniversary-edition_review"],
+        "reliability": ["janome-skyline-s3-anniversary-edition_review"],
+        "known_issues": ["janome-skyline-s3-anniversary-edition_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "quilting_focused"
-      ]
+      "segments": ["quilting_focused"]
     },
     {
       "product_id": "baby-lock-jazz-ii",
@@ -3081,9 +2809,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -3172,10 +2898,7 @@
         "budget_max<=1100",
         "use_case=quilting"
       ],
-      "avoid_when": [
-        "needs=portable_machine",
-        "primarily_makes=garments"
-      ],
+      "avoid_when": ["needs=portable_machine", "primarily_makes=garments"],
       "strengths": [
         "Exceptional workspace value relative to price",
         "Useful quilting-upgrade answer that is meaningfully different from compact general machines",
@@ -3224,32 +2947,16 @@
         "baby-lock-jazz-ii_review"
       ],
       "source_map": {
-        "identity": [
-          "baby-lock-jazz-ii_official"
-        ],
-        "specs": [
-          "baby-lock-jazz-ii_official"
-        ],
-        "price": [
-          "baby-lock-jazz-ii_retailer"
-        ],
-        "availability": [
-          "baby-lock-jazz-ii_retailer"
-        ],
-        "performance": [
-          "baby-lock-jazz-ii_review"
-        ],
-        "reliability": [
-          "baby-lock-jazz-ii_review"
-        ],
-        "known_issues": [
-          "baby-lock-jazz-ii_review"
-        ]
+        "identity": ["baby-lock-jazz-ii_official"],
+        "specs": ["baby-lock-jazz-ii_official"],
+        "price": ["baby-lock-jazz-ii_retailer"],
+        "availability": ["baby-lock-jazz-ii_retailer"],
+        "performance": ["baby-lock-jazz-ii_review"],
+        "reliability": ["baby-lock-jazz-ii_review"],
+        "known_issues": ["baby-lock-jazz-ii_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "premium"
-      ]
+      "segments": ["premium"]
     },
     {
       "product_id": "pfaff-quilt-expression-725",
@@ -3279,9 +2986,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -3336,10 +3041,7 @@
           "advanced garment and quilting crossover users",
           "buyers cross-shopping Bernina 475 QE and Janome premium quilting machines"
         ],
-        "not_ideal_for": [
-          "budget shoppers",
-          "users who need embroidery"
-        ]
+        "not_ideal_for": ["budget shoppers", "users who need embroidery"]
       },
       "decision_specs": {
         "machine_class": "computerized",
@@ -3371,10 +3073,7 @@
         "budget_max<=3000",
         "needs=large_workspace"
       ],
-      "avoid_when": [
-        "needs=embroidery",
-        "budget_max<2000"
-      ],
+      "avoid_when": ["needs=embroidery", "budget_max<2000"],
       "strengths": [
         "Very strong premium quilting coverage with a real feed-system differentiator",
         "Important high-end answer already visible in current quilting content",
@@ -3423,33 +3122,16 @@
         "pfaff-quilt-expression-725_review"
       ],
       "source_map": {
-        "identity": [
-          "pfaff-quilt-expression-725_official"
-        ],
-        "specs": [
-          "pfaff-quilt-expression-725_official"
-        ],
-        "price": [
-          "pfaff-quilt-expression-725_retailer"
-        ],
-        "availability": [
-          "pfaff-quilt-expression-725_retailer"
-        ],
-        "performance": [
-          "pfaff-quilt-expression-725_review"
-        ],
-        "reliability": [
-          "pfaff-quilt-expression-725_review"
-        ],
-        "known_issues": [
-          "pfaff-quilt-expression-725_review"
-        ]
+        "identity": ["pfaff-quilt-expression-725_official"],
+        "specs": ["pfaff-quilt-expression-725_official"],
+        "price": ["pfaff-quilt-expression-725_retailer"],
+        "availability": ["pfaff-quilt-expression-725_retailer"],
+        "performance": ["pfaff-quilt-expression-725_review"],
+        "reliability": ["pfaff-quilt-expression-725_review"],
+        "known_issues": ["pfaff-quilt-expression-725_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "quilting_focused",
-        "premium"
-      ]
+      "segments": ["quilting_focused", "premium"]
     },
     {
       "product_id": "pfaff-passport-3-0",
@@ -3479,9 +3161,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -3623,32 +3303,16 @@
         "pfaff-passport-3-0_review"
       ],
       "source_map": {
-        "identity": [
-          "pfaff-passport-3-0_official"
-        ],
-        "specs": [
-          "pfaff-passport-3-0_official"
-        ],
-        "price": [
-          "pfaff-passport-3-0_retailer"
-        ],
-        "availability": [
-          "pfaff-passport-3-0_retailer"
-        ],
-        "performance": [
-          "pfaff-passport-3-0_review"
-        ],
-        "reliability": [
-          "pfaff-passport-3-0_review"
-        ],
-        "known_issues": [
-          "pfaff-passport-3-0_review"
-        ]
+        "identity": ["pfaff-passport-3-0_official"],
+        "specs": ["pfaff-passport-3-0_official"],
+        "price": ["pfaff-passport-3-0_retailer"],
+        "availability": ["pfaff-passport-3-0_retailer"],
+        "performance": ["pfaff-passport-3-0_review"],
+        "reliability": ["pfaff-passport-3-0_review"],
+        "known_issues": ["pfaff-passport-3-0_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "premium"
-      ]
+      "segments": ["premium"]
     },
     {
       "product_id": "janome-2212",
@@ -3657,12 +3321,7 @@
       "full_name": "Janome 2212 Sewing Machine",
       "status": "current",
       "category": "consumer sewing machines",
-      "subcategories": [
-        "mechanical",
-        "beginner",
-        "budget",
-        "mending"
-      ],
+      "subcategories": ["mechanical", "beginner", "budget", "mending"],
       "official_url": null,
       "image_url": null,
       "launch_year": null,
@@ -3678,9 +3337,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -3735,10 +3392,7 @@
           "basic repairs and first projects",
           "low-friction mechanical learning"
         ],
-        "not_ideal_for": [
-          "quilting upgrades",
-          "feature hunters"
-        ]
+        "not_ideal_for": ["quilting upgrades", "feature hunters"]
       },
       "decision_specs": {
         "machine_class": "mechanical",
@@ -3822,32 +3476,16 @@
         "janome-2212_review"
       ],
       "source_map": {
-        "identity": [
-          "janome-2212_official"
-        ],
-        "specs": [
-          "janome-2212_official"
-        ],
-        "price": [
-          "janome-2212_retailer"
-        ],
-        "availability": [
-          "janome-2212_retailer"
-        ],
-        "performance": [
-          "janome-2212_review"
-        ],
-        "reliability": [
-          "janome-2212_review"
-        ],
-        "known_issues": [
-          "janome-2212_review"
-        ]
+        "identity": ["janome-2212_official"],
+        "specs": ["janome-2212_official"],
+        "price": ["janome-2212_retailer"],
+        "availability": ["janome-2212_retailer"],
+        "performance": ["janome-2212_review"],
+        "reliability": ["janome-2212_review"],
+        "known_issues": ["janome-2212_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "budget_computerized"
-      ]
+      "segments": ["budget_computerized"]
     },
     {
       "product_id": "bernina-335",
@@ -3877,9 +3515,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -4023,32 +3659,16 @@
         "bernina-335_review"
       ],
       "source_map": {
-        "identity": [
-          "bernina-335_official"
-        ],
-        "specs": [
-          "bernina-335_official"
-        ],
-        "price": [
-          "bernina-335_retailer"
-        ],
-        "availability": [
-          "bernina-335_retailer"
-        ],
-        "performance": [
-          "bernina-335_review"
-        ],
-        "reliability": [
-          "bernina-335_review"
-        ],
-        "known_issues": [
-          "bernina-335_review"
-        ]
+        "identity": ["bernina-335_official"],
+        "specs": ["bernina-335_official"],
+        "price": ["bernina-335_retailer"],
+        "availability": ["bernina-335_retailer"],
+        "performance": ["bernina-335_review"],
+        "reliability": ["bernina-335_review"],
+        "known_issues": ["bernina-335_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "premium"
-      ]
+      "segments": ["premium"]
     },
     {
       "product_id": "singer-heavy-duty-4423",
@@ -4078,9 +3698,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -4223,32 +3841,16 @@
         "singer-heavy-duty-4423_review"
       ],
       "source_map": {
-        "identity": [
-          "singer-heavy-duty-4423_official"
-        ],
-        "specs": [
-          "singer-heavy-duty-4423_official"
-        ],
-        "price": [
-          "singer-heavy-duty-4423_retailer"
-        ],
-        "availability": [
-          "singer-heavy-duty-4423_retailer"
-        ],
-        "performance": [
-          "singer-heavy-duty-4423_review"
-        ],
-        "reliability": [
-          "singer-heavy-duty-4423_review"
-        ],
-        "known_issues": [
-          "singer-heavy-duty-4423_review"
-        ]
+        "identity": ["singer-heavy-duty-4423_official"],
+        "specs": ["singer-heavy-duty-4423_official"],
+        "price": ["singer-heavy-duty-4423_retailer"],
+        "availability": ["singer-heavy-duty-4423_retailer"],
+        "performance": ["singer-heavy-duty-4423_review"],
+        "reliability": ["singer-heavy-duty-4423_review"],
+        "known_issues": ["singer-heavy-duty-4423_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "budget_computerized"
-      ]
+      "segments": ["budget_computerized"]
     },
     {
       "product_id": "bernina-435",
@@ -4278,9 +3880,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -4371,10 +3971,7 @@
         "focus=garment_sewing",
         "prioritizes=premium_build"
       ],
-      "avoid_when": [
-        "needs=large_quilting_workspace",
-        "needs=embroidery"
-      ],
+      "avoid_when": ["needs=large_quilting_workspace", "needs=embroidery"],
       "strengths": [
         "Clear premium garment-sewing anchor",
         "Strong fit for users who value precision and ergonomic quality over feature inflation",
@@ -4423,32 +4020,16 @@
         "bernina-435_review"
       ],
       "source_map": {
-        "identity": [
-          "bernina-435_official"
-        ],
-        "specs": [
-          "bernina-435_official"
-        ],
-        "price": [
-          "bernina-435_retailer"
-        ],
-        "availability": [
-          "bernina-435_retailer"
-        ],
-        "performance": [
-          "bernina-435_review"
-        ],
-        "reliability": [
-          "bernina-435_review"
-        ],
-        "known_issues": [
-          "bernina-435_review"
-        ]
+        "identity": ["bernina-435_official"],
+        "specs": ["bernina-435_official"],
+        "price": ["bernina-435_retailer"],
+        "availability": ["bernina-435_retailer"],
+        "performance": ["bernina-435_review"],
+        "reliability": ["bernina-435_review"],
+        "known_issues": ["bernina-435_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "premium"
-      ]
+      "segments": ["premium"]
     },
     {
       "product_id": "bernette-77",
@@ -4478,9 +4059,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -4570,10 +4149,7 @@
         "needs=more_workspace",
         "wants=modern_interface"
       ],
-      "avoid_when": [
-        "needs=embroidery",
-        "budget_max<1200"
-      ],
+      "avoid_when": ["needs=embroidery", "budget_max<1200"],
       "strengths": [
         "Strong premium value step before top-tier Bernina pricing",
         "Meaningfully different from compact mid-tier machines",
@@ -4622,32 +4198,16 @@
         "bernette-77_review"
       ],
       "source_map": {
-        "identity": [
-          "bernette-77_official"
-        ],
-        "specs": [
-          "bernette-77_official"
-        ],
-        "price": [
-          "bernette-77_retailer"
-        ],
-        "availability": [
-          "bernette-77_retailer"
-        ],
-        "performance": [
-          "bernette-77_review"
-        ],
-        "reliability": [
-          "bernette-77_review"
-        ],
-        "known_issues": [
-          "bernette-77_review"
-        ]
+        "identity": ["bernette-77_official"],
+        "specs": ["bernette-77_official"],
+        "price": ["bernette-77_retailer"],
+        "availability": ["bernette-77_retailer"],
+        "performance": ["bernette-77_review"],
+        "reliability": ["bernette-77_review"],
+        "known_issues": ["bernette-77_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "quilting_focused"
-      ]
+      "segments": ["quilting_focused"]
     },
     {
       "product_id": "bernina-475-qe",
@@ -4677,9 +4237,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -4770,10 +4328,7 @@
         "budget_max>3000",
         "prioritizes=bernina_quality"
       ],
-      "avoid_when": [
-        "needs=embroidery",
-        "needs=max_workspace_per_dollar"
-      ],
+      "avoid_when": ["needs=embroidery", "needs=max_workspace_per_dollar"],
       "strengths": [
         "Represents the premium quilting-leaning compact Bernina path",
         "Useful for buyers who prioritize feel and dealer support over large-harp value math",
@@ -4822,33 +4377,16 @@
         "bernina-475-qe_review"
       ],
       "source_map": {
-        "identity": [
-          "bernina-475-qe_official"
-        ],
-        "specs": [
-          "bernina-475-qe_official"
-        ],
-        "price": [
-          "bernina-475-qe_retailer"
-        ],
-        "availability": [
-          "bernina-475-qe_retailer"
-        ],
-        "performance": [
-          "bernina-475-qe_review"
-        ],
-        "reliability": [
-          "bernina-475-qe_review"
-        ],
-        "known_issues": [
-          "bernina-475-qe_review"
-        ]
+        "identity": ["bernina-475-qe_official"],
+        "specs": ["bernina-475-qe_official"],
+        "price": ["bernina-475-qe_retailer"],
+        "availability": ["bernina-475-qe_retailer"],
+        "performance": ["bernina-475-qe_review"],
+        "reliability": ["bernina-475-qe_review"],
+        "known_issues": ["bernina-475-qe_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "quilting_focused",
-        "premium"
-      ]
+      "segments": ["quilting_focused", "premium"]
     },
     {
       "product_id": "janome-hd1000",
@@ -4878,9 +4416,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -5022,27 +4558,13 @@
         "janome-hd1000_review"
       ],
       "source_map": {
-        "identity": [
-          "janome-hd1000_official"
-        ],
-        "specs": [
-          "janome-hd1000_official"
-        ],
-        "price": [
-          "janome-hd1000_retailer"
-        ],
-        "availability": [
-          "janome-hd1000_retailer"
-        ],
-        "performance": [
-          "janome-hd1000_review"
-        ],
-        "reliability": [
-          "janome-hd1000_review"
-        ],
-        "known_issues": [
-          "janome-hd1000_review"
-        ]
+        "identity": ["janome-hd1000_official"],
+        "specs": ["janome-hd1000_official"],
+        "price": ["janome-hd1000_retailer"],
+        "availability": ["janome-hd1000_retailer"],
+        "performance": ["janome-hd1000_review"],
+        "reliability": ["janome-hd1000_review"],
+        "known_issues": ["janome-hd1000_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
       "segments": []
@@ -5054,12 +4576,7 @@
       "full_name": "PFAFF ambition 620 Sewing Machine",
       "status": "current",
       "category": "consumer sewing machines",
-      "subcategories": [
-        "computerized",
-        "premium",
-        "garment",
-        "quilting_light"
-      ],
+      "subcategories": ["computerized", "premium", "garment", "quilting_light"],
       "official_url": null,
       "image_url": null,
       "launch_year": null,
@@ -5075,9 +4592,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -5167,10 +4682,7 @@
         "focus=garment_sewing",
         "values=dual_feed"
       ],
-      "avoid_when": [
-        "needs=embroidery",
-        "needs=max_quilting_workspace"
-      ],
+      "avoid_when": ["needs=embroidery", "needs=max_quilting_workspace"],
       "strengths": [
         "Good premium-upgrade coverage with real feed-system differentiation",
         "Strong garment-use value thanks to IDT",
@@ -5219,32 +4731,16 @@
         "pfaff-ambition-620_review"
       ],
       "source_map": {
-        "identity": [
-          "pfaff-ambition-620_official"
-        ],
-        "specs": [
-          "pfaff-ambition-620_official"
-        ],
-        "price": [
-          "pfaff-ambition-620_retailer"
-        ],
-        "availability": [
-          "pfaff-ambition-620_retailer"
-        ],
-        "performance": [
-          "pfaff-ambition-620_review"
-        ],
-        "reliability": [
-          "pfaff-ambition-620_review"
-        ],
-        "known_issues": [
-          "pfaff-ambition-620_review"
-        ]
+        "identity": ["pfaff-ambition-620_official"],
+        "specs": ["pfaff-ambition-620_official"],
+        "price": ["pfaff-ambition-620_retailer"],
+        "availability": ["pfaff-ambition-620_retailer"],
+        "performance": ["pfaff-ambition-620_review"],
+        "reliability": ["pfaff-ambition-620_review"],
+        "known_issues": ["pfaff-ambition-620_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "premium"
-      ]
+      "segments": ["premium"]
     },
     {
       "product_id": "janome-mod-30",
@@ -5274,9 +4770,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -5417,32 +4911,16 @@
         "janome-mod-30_review"
       ],
       "source_map": {
-        "identity": [
-          "janome-mod-30_official"
-        ],
-        "specs": [
-          "janome-mod-30_official"
-        ],
-        "price": [
-          "janome-mod-30_retailer"
-        ],
-        "availability": [
-          "janome-mod-30_retailer"
-        ],
-        "performance": [
-          "janome-mod-30_review"
-        ],
-        "reliability": [
-          "janome-mod-30_review"
-        ],
-        "known_issues": [
-          "janome-mod-30_review"
-        ]
+        "identity": ["janome-mod-30_official"],
+        "specs": ["janome-mod-30_official"],
+        "price": ["janome-mod-30_retailer"],
+        "availability": ["janome-mod-30_retailer"],
+        "performance": ["janome-mod-30_review"],
+        "reliability": ["janome-mod-30_review"],
+        "known_issues": ["janome-mod-30_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "mid_range"
-      ]
+      "segments": ["mid_range"]
     },
     {
       "product_id": "brother-cp100x",
@@ -5472,9 +4950,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -5564,10 +5040,7 @@
         "needs=easy_setup",
         "gift_buyer=true"
       ],
-      "avoid_when": [
-        "needs=heavy_fabric_capability",
-        "needs=serious_quilting"
-      ],
+      "avoid_when": ["needs=heavy_fabric_capability", "needs=serious_quilting"],
       "strengths": [
         "Very clean low-friction beginner interface",
         "Easy to explain in recommendation copy",
@@ -5616,32 +5089,16 @@
         "brother-cp100x_review"
       ],
       "source_map": {
-        "identity": [
-          "brother-cp100x_official"
-        ],
-        "specs": [
-          "brother-cp100x_official"
-        ],
-        "price": [
-          "brother-cp100x_retailer"
-        ],
-        "availability": [
-          "brother-cp100x_retailer"
-        ],
-        "performance": [
-          "brother-cp100x_review"
-        ],
-        "reliability": [
-          "brother-cp100x_review"
-        ],
-        "known_issues": [
-          "brother-cp100x_review"
-        ]
+        "identity": ["brother-cp100x_official"],
+        "specs": ["brother-cp100x_official"],
+        "price": ["brother-cp100x_retailer"],
+        "availability": ["brother-cp100x_retailer"],
+        "performance": ["brother-cp100x_review"],
+        "reliability": ["brother-cp100x_review"],
+        "known_issues": ["brother-cp100x_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "budget_mechanical"
-      ]
+      "segments": ["budget_mechanical"]
     },
     {
       "product_id": "janome-horizon-memory-craft-9480qcp",
@@ -5671,9 +5128,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -5764,10 +5219,7 @@
         "needs=high_end_sewing_and_embroidery",
         "skill_level=advanced"
       ],
-      "avoid_when": [
-        "budget_max<=3000",
-        "needs=simple_general_machine"
-      ],
+      "avoid_when": ["budget_max<=3000", "needs=simple_general_machine"],
       "strengths": [
         "Gives the catalog credible coverage at the true flagship end",
         "Combines premium sewing, quilting, and embroidery in one answer",
@@ -5816,32 +5268,16 @@
         "janome-horizon-memory-craft-9480qcp_review"
       ],
       "source_map": {
-        "identity": [
-          "janome-horizon-memory-craft-9480qcp_official"
-        ],
-        "specs": [
-          "janome-horizon-memory-craft-9480qcp_official"
-        ],
-        "price": [
-          "janome-horizon-memory-craft-9480qcp_retailer"
-        ],
-        "availability": [
-          "janome-horizon-memory-craft-9480qcp_retailer"
-        ],
-        "performance": [
-          "janome-horizon-memory-craft-9480qcp_review"
-        ],
-        "reliability": [
-          "janome-horizon-memory-craft-9480qcp_review"
-        ],
-        "known_issues": [
-          "janome-horizon-memory-craft-9480qcp_review"
-        ]
+        "identity": ["janome-horizon-memory-craft-9480qcp_official"],
+        "specs": ["janome-horizon-memory-craft-9480qcp_official"],
+        "price": ["janome-horizon-memory-craft-9480qcp_retailer"],
+        "availability": ["janome-horizon-memory-craft-9480qcp_retailer"],
+        "performance": ["janome-horizon-memory-craft-9480qcp_review"],
+        "reliability": ["janome-horizon-memory-craft-9480qcp_review"],
+        "known_issues": ["janome-horizon-memory-craft-9480qcp_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "premium"
-      ]
+      "segments": ["premium"]
     },
     {
       "product_id": "baby-lock-zest",
@@ -5850,12 +5286,7 @@
       "full_name": "Baby Lock Zest Sewing Machine",
       "status": "current",
       "category": "consumer sewing machines",
-      "subcategories": [
-        "mechanical",
-        "beginner",
-        "budget",
-        "dealer_support"
-      ],
+      "subcategories": ["mechanical", "beginner", "budget", "dealer_support"],
       "official_url": null,
       "image_url": null,
       "launch_year": null,
@@ -5871,9 +5302,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -5962,10 +5391,7 @@
         "budget_max<=200",
         "values=dealer_support"
       ],
-      "avoid_when": [
-        "needs=heavy_fabrics",
-        "wants=computerized"
-      ],
+      "avoid_when": ["needs=heavy_fabrics", "wants=computerized"],
       "strengths": [
         "Unusually strong trust signal for a true low-price beginner machine",
         "Simple enough to recommend to non-hobby users",
@@ -6014,32 +5440,16 @@
         "baby-lock-zest_review"
       ],
       "source_map": {
-        "identity": [
-          "baby-lock-zest_official"
-        ],
-        "specs": [
-          "baby-lock-zest_official"
-        ],
-        "price": [
-          "baby-lock-zest_retailer"
-        ],
-        "availability": [
-          "baby-lock-zest_retailer"
-        ],
-        "performance": [
-          "baby-lock-zest_review"
-        ],
-        "reliability": [
-          "baby-lock-zest_review"
-        ],
-        "known_issues": [
-          "baby-lock-zest_review"
-        ]
+        "identity": ["baby-lock-zest_official"],
+        "specs": ["baby-lock-zest_official"],
+        "price": ["baby-lock-zest_retailer"],
+        "availability": ["baby-lock-zest_retailer"],
+        "performance": ["baby-lock-zest_review"],
+        "reliability": ["baby-lock-zest_review"],
+        "known_issues": ["baby-lock-zest_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "budget_computerized"
-      ]
+      "segments": ["budget_computerized"]
     },
     {
       "product_id": "bernette-38",
@@ -6069,9 +5479,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -6213,32 +5621,16 @@
         "bernette-38_review"
       ],
       "source_map": {
-        "identity": [
-          "bernette-38_official"
-        ],
-        "specs": [
-          "bernette-38_official"
-        ],
-        "price": [
-          "bernette-38_retailer"
-        ],
-        "availability": [
-          "bernette-38_retailer"
-        ],
-        "performance": [
-          "bernette-38_review"
-        ],
-        "reliability": [
-          "bernette-38_review"
-        ],
-        "known_issues": [
-          "bernette-38_review"
-        ]
+        "identity": ["bernette-38_official"],
+        "specs": ["bernette-38_official"],
+        "price": ["bernette-38_retailer"],
+        "availability": ["bernette-38_retailer"],
+        "performance": ["bernette-38_review"],
+        "reliability": ["bernette-38_review"],
+        "known_issues": ["bernette-38_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "mid_range"
-      ]
+      "segments": ["mid_range"]
     },
     {
       "product_id": "baby-lock-aurora",
@@ -6268,9 +5660,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -6411,33 +5801,16 @@
         "baby-lock-aurora_review"
       ],
       "source_map": {
-        "identity": [
-          "baby-lock-aurora_official"
-        ],
-        "specs": [
-          "baby-lock-aurora_official"
-        ],
-        "price": [
-          "baby-lock-aurora_retailer"
-        ],
-        "availability": [
-          "baby-lock-aurora_retailer"
-        ],
-        "performance": [
-          "baby-lock-aurora_review"
-        ],
-        "reliability": [
-          "baby-lock-aurora_review"
-        ],
-        "known_issues": [
-          "baby-lock-aurora_review"
-        ]
+        "identity": ["baby-lock-aurora_official"],
+        "specs": ["baby-lock-aurora_official"],
+        "price": ["baby-lock-aurora_retailer"],
+        "availability": ["baby-lock-aurora_retailer"],
+        "performance": ["baby-lock-aurora_review"],
+        "reliability": ["baby-lock-aurora_review"],
+        "known_issues": ["baby-lock-aurora_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "embroidery",
-        "premium"
-      ]
+      "segments": ["embroidery", "premium"]
     },
     {
       "product_id": "baby-lock-jubilant",
@@ -6467,9 +5840,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -6558,10 +5929,7 @@
         "prefers=computerized",
         "budget_max<=800"
       ],
-      "avoid_when": [
-        "needs=best_value_only",
-        "needs=large_quilting_workspace"
-      ],
+      "avoid_when": ["needs=best_value_only", "needs=large_quilting_workspace"],
       "strengths": [
         "Support ecosystem differentiates it from spec-similar mass-market machines",
         "Useful recommendation for buyers who trust local dealers more than Amazon reviews",
@@ -6610,32 +5978,16 @@
         "baby-lock-jubilant_review"
       ],
       "source_map": {
-        "identity": [
-          "baby-lock-jubilant_official"
-        ],
-        "specs": [
-          "baby-lock-jubilant_official"
-        ],
-        "price": [
-          "baby-lock-jubilant_retailer"
-        ],
-        "availability": [
-          "baby-lock-jubilant_retailer"
-        ],
-        "performance": [
-          "baby-lock-jubilant_review"
-        ],
-        "reliability": [
-          "baby-lock-jubilant_review"
-        ],
-        "known_issues": [
-          "baby-lock-jubilant_review"
-        ]
+        "identity": ["baby-lock-jubilant_official"],
+        "specs": ["baby-lock-jubilant_official"],
+        "price": ["baby-lock-jubilant_retailer"],
+        "availability": ["baby-lock-jubilant_retailer"],
+        "performance": ["baby-lock-jubilant_review"],
+        "reliability": ["baby-lock-jubilant_review"],
+        "known_issues": ["baby-lock-jubilant_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "mid_range"
-      ]
+      "segments": ["mid_range"]
     },
     {
       "product_id": "bernette-79",
@@ -6665,9 +6017,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -6756,10 +6106,7 @@
         "budget_max<=2800",
         "wants=premium_combo"
       ],
-      "avoid_when": [
-        "needs=best_pure_sewing_value",
-        "skill_level=beginner"
-      ],
+      "avoid_when": ["needs=best_pure_sewing_value", "skill_level=beginner"],
       "strengths": [
         "Adds a credible premium-combo option outside the Brother/Baby Lock logic",
         "Useful upper-mid combo anchor for recommendation comparisons",
@@ -6770,9 +6117,7 @@
         "Price requires a true dual-use need",
         "Lower awareness than Brother-brand embroidery models"
       ],
-      "known_issues": [
-        "Model-specific mainstream review coverage is limited"
-      ],
+      "known_issues": ["Model-specific mainstream review coverage is limited"],
       "ownership_notes": {
         "warranty": "8-year mechanical / 2-year electrical",
         "support_reputation": "Dealer-channel support is decent but variable",
@@ -6808,32 +6153,16 @@
         "bernette-79_review"
       ],
       "source_map": {
-        "identity": [
-          "bernette-79_official"
-        ],
-        "specs": [
-          "bernette-79_official"
-        ],
-        "price": [
-          "bernette-79_retailer"
-        ],
-        "availability": [
-          "bernette-79_retailer"
-        ],
-        "performance": [
-          "bernette-79_review"
-        ],
-        "reliability": [
-          "bernette-79_review"
-        ],
-        "known_issues": [
-          "bernette-79_review"
-        ]
+        "identity": ["bernette-79_official"],
+        "specs": ["bernette-79_official"],
+        "price": ["bernette-79_retailer"],
+        "availability": ["bernette-79_retailer"],
+        "performance": ["bernette-79_review"],
+        "reliability": ["bernette-79_review"],
+        "known_issues": ["bernette-79_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "embroidery"
-      ]
+      "segments": ["embroidery"]
     },
     {
       "product_id": "husqvarna-viking-jade-20",
@@ -6863,9 +6192,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -7007,27 +6334,13 @@
         "husqvarna-viking-jade-20_review"
       ],
       "source_map": {
-        "identity": [
-          "husqvarna-viking-jade-20_official"
-        ],
-        "specs": [
-          "husqvarna-viking-jade-20_official"
-        ],
-        "price": [
-          "husqvarna-viking-jade-20_retailer"
-        ],
-        "availability": [
-          "husqvarna-viking-jade-20_retailer"
-        ],
-        "performance": [
-          "husqvarna-viking-jade-20_review"
-        ],
-        "reliability": [
-          "husqvarna-viking-jade-20_review"
-        ],
-        "known_issues": [
-          "husqvarna-viking-jade-20_review"
-        ]
+        "identity": ["husqvarna-viking-jade-20_official"],
+        "specs": ["husqvarna-viking-jade-20_official"],
+        "price": ["husqvarna-viking-jade-20_retailer"],
+        "availability": ["husqvarna-viking-jade-20_retailer"],
+        "performance": ["husqvarna-viking-jade-20_review"],
+        "reliability": ["husqvarna-viking-jade-20_review"],
+        "known_issues": ["husqvarna-viking-jade-20_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
       "segments": []
@@ -7060,9 +6373,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -7152,10 +6463,7 @@
         "budget_max<=1600",
         "wants=mid_premium_combo"
       ],
-      "avoid_when": [
-        "needs=best_pure_sewing_value",
-        "skill_level=beginner"
-      ],
+      "avoid_when": ["needs=best_pure_sewing_value", "skill_level=beginner"],
       "strengths": [
         "Fills a mid-premium combo gap between entry Brother combos and pricier dealer brands",
         "Modern workflow and brand positioning broaden combo coverage",
@@ -7204,33 +6512,16 @@
         "pfaff-creative-expect-350_review"
       ],
       "source_map": {
-        "identity": [
-          "pfaff-creative-expect-350_official"
-        ],
-        "specs": [
-          "pfaff-creative-expect-350_official"
-        ],
-        "price": [
-          "pfaff-creative-expect-350_retailer"
-        ],
-        "availability": [
-          "pfaff-creative-expect-350_retailer"
-        ],
-        "performance": [
-          "pfaff-creative-expect-350_review"
-        ],
-        "reliability": [
-          "pfaff-creative-expect-350_review"
-        ],
-        "known_issues": [
-          "pfaff-creative-expect-350_review"
-        ]
+        "identity": ["pfaff-creative-expect-350_official"],
+        "specs": ["pfaff-creative-expect-350_official"],
+        "price": ["pfaff-creative-expect-350_retailer"],
+        "availability": ["pfaff-creative-expect-350_retailer"],
+        "performance": ["pfaff-creative-expect-350_review"],
+        "reliability": ["pfaff-creative-expect-350_review"],
+        "known_issues": ["pfaff-creative-expect-350_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "embroidery",
-        "premium"
-      ]
+      "segments": ["embroidery", "premium"]
     },
     {
       "product_id": "husqvarna-viking-opal-690q",
@@ -7239,12 +6530,7 @@
       "full_name": "HUSQVARNA VIKING OPAL 690Q Sewing Machine",
       "status": "current",
       "category": "consumer sewing machines",
-      "subcategories": [
-        "computerized",
-        "premium",
-        "quilting_light",
-        "garment"
-      ],
+      "subcategories": ["computerized", "premium", "quilting_light", "garment"],
       "official_url": null,
       "image_url": null,
       "launch_year": null,
@@ -7260,9 +6546,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -7352,10 +6636,7 @@
         "wants=premium_computerized_machine",
         "values=dealer_support"
       ],
-      "avoid_when": [
-        "needs=embroidery",
-        "needs=max_workspace"
-      ],
+      "avoid_when": ["needs=embroidery", "needs=max_workspace"],
       "strengths": [
         "Useful premium-upgrade coverage outside the most common premium brands",
         "Supported ownership path matters for real buyers",
@@ -7404,33 +6685,16 @@
         "husqvarna-viking-opal-690q_review"
       ],
       "source_map": {
-        "identity": [
-          "husqvarna-viking-opal-690q_official"
-        ],
-        "specs": [
-          "husqvarna-viking-opal-690q_official"
-        ],
-        "price": [
-          "husqvarna-viking-opal-690q_retailer"
-        ],
-        "availability": [
-          "husqvarna-viking-opal-690q_retailer"
-        ],
-        "performance": [
-          "husqvarna-viking-opal-690q_review"
-        ],
-        "reliability": [
-          "husqvarna-viking-opal-690q_review"
-        ],
-        "known_issues": [
-          "husqvarna-viking-opal-690q_review"
-        ]
+        "identity": ["husqvarna-viking-opal-690q_official"],
+        "specs": ["husqvarna-viking-opal-690q_official"],
+        "price": ["husqvarna-viking-opal-690q_retailer"],
+        "availability": ["husqvarna-viking-opal-690q_retailer"],
+        "performance": ["husqvarna-viking-opal-690q_review"],
+        "reliability": ["husqvarna-viking-opal-690q_review"],
+        "known_issues": ["husqvarna-viking-opal-690q_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "quilting_focused",
-        "premium"
-      ]
+      "segments": ["quilting_focused", "premium"]
     },
     {
       "product_id": "juki-hzl-353zr-c",
@@ -7460,9 +6724,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -7551,10 +6813,7 @@
         "wants=better_sewing_feel",
         "budget_max<=450"
       ],
-      "avoid_when": [
-        "needs=heavy_duty_denim",
-        "wants=computerized_features"
-      ],
+      "avoid_when": ["needs=heavy_duty_denim", "wants=computerized_features"],
       "strengths": [
         "Adds a Juki-led mechanical answer in a market dominated by Brother/Singer/Janome starter talk",
         "Useful for users who value smoother sewing feel over feature count",
@@ -7603,32 +6862,16 @@
         "juki-hzl-353zr-c_review"
       ],
       "source_map": {
-        "identity": [
-          "juki-hzl-353zr-c_official"
-        ],
-        "specs": [
-          "juki-hzl-353zr-c_official"
-        ],
-        "price": [
-          "juki-hzl-353zr-c_retailer"
-        ],
-        "availability": [
-          "juki-hzl-353zr-c_retailer"
-        ],
-        "performance": [
-          "juki-hzl-353zr-c_review"
-        ],
-        "reliability": [
-          "juki-hzl-353zr-c_review"
-        ],
-        "known_issues": [
-          "juki-hzl-353zr-c_review"
-        ]
+        "identity": ["juki-hzl-353zr-c_official"],
+        "specs": ["juki-hzl-353zr-c_official"],
+        "price": ["juki-hzl-353zr-c_retailer"],
+        "availability": ["juki-hzl-353zr-c_retailer"],
+        "performance": ["juki-hzl-353zr-c_review"],
+        "reliability": ["juki-hzl-353zr-c_review"],
+        "known_issues": ["juki-hzl-353zr-c_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "mid_range"
-      ]
+      "segments": ["mid_range"]
     },
     {
       "product_id": "singer-heavy-duty-6800c",
@@ -7637,12 +6880,7 @@
       "full_name": "Singer Heavy Duty 6800C Computerized Sewing Machine",
       "status": "current",
       "category": "consumer sewing machines",
-      "subcategories": [
-        "computerized",
-        "heavy_duty",
-        "garment",
-        "bags_denim"
-      ],
+      "subcategories": ["computerized", "heavy_duty", "garment", "bags_denim"],
       "official_url": null,
       "image_url": null,
       "launch_year": null,
@@ -7658,9 +6896,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -7750,10 +6986,7 @@
         "prefers=computerized",
         "budget_max<=400"
       ],
-      "avoid_when": [
-        "needs=premium_stitch_quality",
-        "wants=quiet_smooth"
-      ],
+      "avoid_when": ["needs=premium_stitch_quality", "wants=quiet_smooth"],
       "strengths": [
         "Adds a real 'computerized heavy-duty' branch to the catalog",
         "Useful contrast to mechanical heavy-duty machines",
@@ -7802,32 +7035,16 @@
         "singer-heavy-duty-6800c_review"
       ],
       "source_map": {
-        "identity": [
-          "singer-heavy-duty-6800c_official"
-        ],
-        "specs": [
-          "singer-heavy-duty-6800c_official"
-        ],
-        "price": [
-          "singer-heavy-duty-6800c_retailer"
-        ],
-        "availability": [
-          "singer-heavy-duty-6800c_retailer"
-        ],
-        "performance": [
-          "singer-heavy-duty-6800c_review"
-        ],
-        "reliability": [
-          "singer-heavy-duty-6800c_review"
-        ],
-        "known_issues": [
-          "singer-heavy-duty-6800c_review"
-        ]
+        "identity": ["singer-heavy-duty-6800c_official"],
+        "specs": ["singer-heavy-duty-6800c_official"],
+        "price": ["singer-heavy-duty-6800c_retailer"],
+        "availability": ["singer-heavy-duty-6800c_retailer"],
+        "performance": ["singer-heavy-duty-6800c_review"],
+        "reliability": ["singer-heavy-duty-6800c_review"],
+        "known_issues": ["singer-heavy-duty-6800c_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "budget_computerized"
-      ]
+      "segments": ["budget_computerized"]
     },
     {
       "product_id": "bernette-35",
@@ -7857,9 +7074,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -8000,32 +7215,16 @@
         "bernette-35_review"
       ],
       "source_map": {
-        "identity": [
-          "bernette-35_official"
-        ],
-        "specs": [
-          "bernette-35_official"
-        ],
-        "price": [
-          "bernette-35_retailer"
-        ],
-        "availability": [
-          "bernette-35_retailer"
-        ],
-        "performance": [
-          "bernette-35_review"
-        ],
-        "reliability": [
-          "bernette-35_review"
-        ],
-        "known_issues": [
-          "bernette-35_review"
-        ]
+        "identity": ["bernette-35_official"],
+        "specs": ["bernette-35_official"],
+        "price": ["bernette-35_retailer"],
+        "availability": ["bernette-35_retailer"],
+        "performance": ["bernette-35_review"],
+        "reliability": ["bernette-35_review"],
+        "known_issues": ["bernette-35_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "budget_computerized"
-      ]
+      "segments": ["budget_computerized"]
     },
     {
       "product_id": "singer-patchwork-7285q",
@@ -8055,9 +7254,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -8198,32 +7395,16 @@
         "singer-patchwork-7285q_review"
       ],
       "source_map": {
-        "identity": [
-          "singer-patchwork-7285q_official"
-        ],
-        "specs": [
-          "singer-patchwork-7285q_official"
-        ],
-        "price": [
-          "singer-patchwork-7285q_retailer"
-        ],
-        "availability": [
-          "singer-patchwork-7285q_retailer"
-        ],
-        "performance": [
-          "singer-patchwork-7285q_review"
-        ],
-        "reliability": [
-          "singer-patchwork-7285q_review"
-        ],
-        "known_issues": [
-          "singer-patchwork-7285q_review"
-        ]
+        "identity": ["singer-patchwork-7285q_official"],
+        "specs": ["singer-patchwork-7285q_official"],
+        "price": ["singer-patchwork-7285q_retailer"],
+        "availability": ["singer-patchwork-7285q_retailer"],
+        "performance": ["singer-patchwork-7285q_review"],
+        "reliability": ["singer-patchwork-7285q_review"],
+        "known_issues": ["singer-patchwork-7285q_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "mid_range"
-      ]
+      "segments": ["mid_range"]
     },
     {
       "product_id": "husqvarna-viking-onyx-25",
@@ -8253,9 +7434,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -8344,10 +7523,7 @@
         "values=dealer_support",
         "budget_max<=500"
       ],
-      "avoid_when": [
-        "needs=computerized_ease",
-        "needs=heavy_fabric_focus"
-      ],
+      "avoid_when": ["needs=computerized_ease", "needs=heavy_fabric_focus"],
       "strengths": [
         "Adds another supported-mechanical option in a price zone where many shoppers want sturdier ownership",
         "Useful for returning-sewist logic",
@@ -8396,32 +7572,16 @@
         "husqvarna-viking-onyx-25_review"
       ],
       "source_map": {
-        "identity": [
-          "husqvarna-viking-onyx-25_official"
-        ],
-        "specs": [
-          "husqvarna-viking-onyx-25_official"
-        ],
-        "price": [
-          "husqvarna-viking-onyx-25_retailer"
-        ],
-        "availability": [
-          "husqvarna-viking-onyx-25_retailer"
-        ],
-        "performance": [
-          "husqvarna-viking-onyx-25_review"
-        ],
-        "reliability": [
-          "husqvarna-viking-onyx-25_review"
-        ],
-        "known_issues": [
-          "husqvarna-viking-onyx-25_review"
-        ]
+        "identity": ["husqvarna-viking-onyx-25_official"],
+        "specs": ["husqvarna-viking-onyx-25_official"],
+        "price": ["husqvarna-viking-onyx-25_retailer"],
+        "availability": ["husqvarna-viking-onyx-25_retailer"],
+        "performance": ["husqvarna-viking-onyx-25_review"],
+        "reliability": ["husqvarna-viking-onyx-25_review"],
+        "known_issues": ["husqvarna-viking-onyx-25_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "premium"
-      ]
+      "segments": ["premium"]
     },
     {
       "product_id": "singer-simple-3337",
@@ -8430,12 +7590,7 @@
       "full_name": "Singer Simple 3337 Sewing Machine",
       "status": "current",
       "category": "consumer sewing machines",
-      "subcategories": [
-        "mechanical",
-        "beginner",
-        "budget",
-        "general_purpose"
-      ],
+      "subcategories": ["mechanical", "beginner", "budget", "general_purpose"],
       "official_url": null,
       "image_url": null,
       "launch_year": null,
@@ -8451,9 +7606,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -8542,10 +7695,7 @@
         "skill_level=beginner",
         "needs=simple_basics"
       ],
-      "avoid_when": [
-        "needs=heavy_fabric_capability",
-        "wants=upgrade_headroom"
-      ],
+      "avoid_when": ["needs=heavy_fabric_capability", "wants=upgrade_headroom"],
       "strengths": [
         "Represents the ultra-budget recognizable-brand tier",
         "Simple enough for low-stakes learning",
@@ -8595,32 +7745,16 @@
         "singer-simple-3337_review"
       ],
       "source_map": {
-        "identity": [
-          "singer-simple-3337_official"
-        ],
-        "specs": [
-          "singer-simple-3337_official"
-        ],
-        "price": [
-          "singer-simple-3337_retailer"
-        ],
-        "availability": [
-          "singer-simple-3337_retailer"
-        ],
-        "performance": [
-          "singer-simple-3337_review"
-        ],
-        "reliability": [
-          "singer-simple-3337_review"
-        ],
-        "known_issues": [
-          "singer-simple-3337_review"
-        ]
+        "identity": ["singer-simple-3337_official"],
+        "specs": ["singer-simple-3337_official"],
+        "price": ["singer-simple-3337_retailer"],
+        "availability": ["singer-simple-3337_retailer"],
+        "performance": ["singer-simple-3337_review"],
+        "reliability": ["singer-simple-3337_review"],
+        "known_issues": ["singer-simple-3337_review"]
       },
       "last_verified_at": "2026-03-20T12:00:00Z",
-      "segments": [
-        "budget_mechanical"
-      ]
+      "segments": ["budget_mechanical"]
     },
     {
       "product_id": "brother-lx3817",
@@ -8629,11 +7763,7 @@
       "full_name": "Brother LX3817 Full-Featured Sewing Machine",
       "status": "current",
       "category": "consumer sewing machines",
-      "subcategories": [
-        "mechanical",
-        "beginner",
-        "general_purpose"
-      ],
+      "subcategories": ["mechanical", "beginner", "general_purpose"],
       "official_url": null,
       "image_url": null,
       "launch_year": null,
@@ -8649,9 +7779,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -8701,10 +7829,7 @@
           "1000_1999": 0,
           "2000_plus": 0
         },
-        "best_for": [
-          "absolute beginners",
-          "basic mending"
-        ],
+        "best_for": ["absolute beginners", "basic mending"],
         "not_ideal_for": [
           "projects requiring more than basic stitches",
           "heavier fabrics"
@@ -8727,20 +7852,12 @@
         "free_arm": true,
         "connectivity_or_design_transfer": "none"
       },
-      "filter_tags": [
-        "beginner",
-        "mechanical",
-        "under_150",
-        "budget"
-      ],
+      "filter_tags": ["beginner", "mechanical", "under_150", "budget"],
       "recommend_when": [
         "budget_max<=100",
         "use_case=basic_mending_or_learning"
       ],
-      "avoid_when": [
-        "needs=variety_of_stitches",
-        "use_case=garment_making"
-      ],
+      "avoid_when": ["needs=variety_of_stitches", "use_case=garment_making"],
       "strengths": [
         "Very affordable entry point",
         "Simple mechanical design is reliable",
@@ -8780,28 +7897,16 @@
         "redundancy_penalty": 0.2
       },
       "confidence": 0.75,
-      "source_ids": [
-        "brother-lx3817_retailer"
-      ],
+      "source_ids": ["brother-lx3817_retailer"],
       "source_map": {
-        "identity": [
-          "brother-lx3817_retailer"
-        ],
-        "specs": [
-          "brother-lx3817_retailer"
-        ],
-        "price": [
-          "brother-lx3817_retailer"
-        ],
-        "availability": [
-          "brother-lx3817_retailer"
-        ],
+        "identity": ["brother-lx3817_retailer"],
+        "specs": ["brother-lx3817_retailer"],
+        "price": ["brother-lx3817_retailer"],
+        "availability": ["brother-lx3817_retailer"],
         "fit": [],
         "review": []
       },
-      "segments": [
-        "budget_mechanical"
-      ]
+      "segments": ["budget_mechanical"]
     },
     {
       "product_id": "singer-start-1304",
@@ -8810,11 +7915,7 @@
       "full_name": "Singer Start 1304 Sewing Machine",
       "status": "current",
       "category": "consumer sewing machines",
-      "subcategories": [
-        "mechanical",
-        "beginner",
-        "general_purpose"
-      ],
+      "subcategories": ["mechanical", "beginner", "general_purpose"],
       "official_url": null,
       "image_url": null,
       "launch_year": null,
@@ -8830,9 +7931,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -8882,10 +7981,7 @@
           "1000_1999": 0,
           "2000_plus": 0
         },
-        "best_for": [
-          "absolute beginners",
-          "kids learning to sew"
-        ],
+        "best_for": ["absolute beginners", "kids learning to sew"],
         "not_ideal_for": [
           "anyone who will outgrow 6 stitches quickly",
           "heavier fabrics"
@@ -8964,28 +8060,16 @@
         "redundancy_penalty": 0.3
       },
       "confidence": 0.72,
-      "source_ids": [
-        "singer-start-1304_retailer"
-      ],
+      "source_ids": ["singer-start-1304_retailer"],
       "source_map": {
-        "identity": [
-          "singer-start-1304_retailer"
-        ],
-        "specs": [
-          "singer-start-1304_retailer"
-        ],
-        "price": [
-          "singer-start-1304_retailer"
-        ],
-        "availability": [
-          "singer-start-1304_retailer"
-        ],
+        "identity": ["singer-start-1304_retailer"],
+        "specs": ["singer-start-1304_retailer"],
+        "price": ["singer-start-1304_retailer"],
+        "availability": ["singer-start-1304_retailer"],
         "fit": [],
         "review": []
       },
-      "segments": [
-        "budget_mechanical"
-      ]
+      "segments": ["budget_mechanical"]
     },
     {
       "product_id": "singer-m1500",
@@ -8994,11 +8078,7 @@
       "full_name": "Singer M1500 Sewing Machine",
       "status": "current",
       "category": "consumer sewing machines",
-      "subcategories": [
-        "mechanical",
-        "beginner",
-        "general_purpose"
-      ],
+      "subcategories": ["mechanical", "beginner", "general_purpose"],
       "official_url": null,
       "image_url": null,
       "launch_year": null,
@@ -9014,9 +8094,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -9066,9 +8144,7 @@
           "1000_1999": 0,
           "2000_plus": 0
         },
-        "best_for": [
-          "beginners wanting more stitches on a budget"
-        ],
+        "best_for": ["beginners wanting more stitches on a budget"],
         "not_ideal_for": [
           "heavier fabrics",
           "garment construction beyond basics"
@@ -9098,14 +8174,8 @@
         "budget",
         "stitch_variety"
       ],
-      "recommend_when": [
-        "budget_max<=130",
-        "wants=stitch_variety_on_budget"
-      ],
-      "avoid_when": [
-        "needs=computerized_features",
-        "use_case=heavy_duty"
-      ],
+      "recommend_when": ["budget_max<=130", "wants=stitch_variety_on_budget"],
+      "avoid_when": ["needs=computerized_features", "use_case=heavy_duty"],
       "strengths": [
         "57 stitches for a mechanical machine at this price",
         "Auto needle threader",
@@ -9145,28 +8215,16 @@
         "redundancy_penalty": 0.2
       },
       "confidence": 0.73,
-      "source_ids": [
-        "singer-m1500_retailer"
-      ],
+      "source_ids": ["singer-m1500_retailer"],
       "source_map": {
-        "identity": [
-          "singer-m1500_retailer"
-        ],
-        "specs": [
-          "singer-m1500_retailer"
-        ],
-        "price": [
-          "singer-m1500_retailer"
-        ],
-        "availability": [
-          "singer-m1500_retailer"
-        ],
+        "identity": ["singer-m1500_retailer"],
+        "specs": ["singer-m1500_retailer"],
+        "price": ["singer-m1500_retailer"],
+        "availability": ["singer-m1500_retailer"],
         "fit": [],
         "review": []
       },
-      "segments": [
-        "budget_mechanical"
-      ]
+      "segments": ["budget_mechanical"]
     },
     {
       "product_id": "brother-xm2701",
@@ -9175,11 +8233,7 @@
       "full_name": "Brother XM2701 Lightweight Full-Featured Sewing Machine",
       "status": "current",
       "category": "consumer sewing machines",
-      "subcategories": [
-        "mechanical",
-        "beginner",
-        "general_purpose"
-      ],
+      "subcategories": ["mechanical", "beginner", "general_purpose"],
       "official_url": null,
       "image_url": null,
       "launch_year": null,
@@ -9195,9 +8249,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -9247,11 +8299,7 @@
           "1000_1999": 0,
           "2000_plus": 0
         },
-        "best_for": [
-          "beginners",
-          "alterations",
-          "light garment sewing"
-        ],
+        "best_for": ["beginners", "alterations", "light garment sewing"],
         "not_ideal_for": [
           "heavy fabrics",
           "buyers needing computerized features"
@@ -9286,10 +8334,7 @@
         "budget_max<=140",
         "use_case in [learning,alterations,light_garments]"
       ],
-      "avoid_when": [
-        "needs=computerized_screen",
-        "use_case=heavy_duty"
-      ],
+      "avoid_when": ["needs=computerized_screen", "use_case=heavy_duty"],
       "strengths": [
         "One-step buttonhole makes garment sewing accessible",
         "Drop-in bobbin and auto threader reduce setup frustration",
@@ -9329,29 +8374,16 @@
         "redundancy_penalty": 0.2
       },
       "confidence": 0.78,
-      "source_ids": [
-        "brother-xm2701_retailer"
-      ],
+      "source_ids": ["brother-xm2701_retailer"],
       "source_map": {
-        "identity": [
-          "brother-xm2701_retailer"
-        ],
-        "specs": [
-          "brother-xm2701_retailer"
-        ],
-        "price": [
-          "brother-xm2701_retailer"
-        ],
-        "availability": [
-          "brother-xm2701_retailer"
-        ],
+        "identity": ["brother-xm2701_retailer"],
+        "specs": ["brother-xm2701_retailer"],
+        "price": ["brother-xm2701_retailer"],
+        "availability": ["brother-xm2701_retailer"],
         "fit": [],
         "review": []
       },
-      "segments": [
-        "budget_mechanical",
-        "budget_computerized"
-      ]
+      "segments": ["budget_mechanical", "budget_computerized"]
     },
     {
       "product_id": "singer-simple-3232",
@@ -9360,11 +8392,7 @@
       "full_name": "Singer Simple 3232 Sewing Machine",
       "status": "current",
       "category": "consumer sewing machines",
-      "subcategories": [
-        "mechanical",
-        "beginner",
-        "general_purpose"
-      ],
+      "subcategories": ["mechanical", "beginner", "general_purpose"],
       "official_url": null,
       "image_url": null,
       "launch_year": null,
@@ -9380,9 +8408,7 @@
       },
       "availability": {
         "availability_status": "available",
-        "regions_verified": [
-          "US"
-        ],
+        "regions_verified": ["US"],
         "last_verified_at": "2026-03-20T12:00:00Z"
       },
       "merchant_availability": [
@@ -9435,10 +8461,7 @@
         "best_for": [
           "beginners who want mechanical reliability with more features"
         ],
-        "not_ideal_for": [
-          "heavy fabrics",
-          "advanced garment construction"
-        ]
+        "not_ideal_for": ["heavy fabrics", "advanced garment construction"]
       },
       "decision_specs": {
         "machine_class": "mechanical",
@@ -9469,10 +8492,7 @@
         "prefers=mechanical_simplicity",
         "wants=more_stitches"
       ],
-      "avoid_when": [
-        "needs=computerized_features",
-        "use_case=heavy_fabrics"
-      ],
+      "avoid_when": ["needs=computerized_features", "use_case=heavy_fabrics"],
       "strengths": [
         "32 stitches including practical decorative options",
         "Auto threader and one-step buttonhole",
@@ -9513,28 +8533,16 @@
         "redundancy_penalty": 0.2
       },
       "confidence": 0.76,
-      "source_ids": [
-        "singer-simple-3232_retailer"
-      ],
+      "source_ids": ["singer-simple-3232_retailer"],
       "source_map": {
-        "identity": [
-          "singer-simple-3232_retailer"
-        ],
-        "specs": [
-          "singer-simple-3232_retailer"
-        ],
-        "price": [
-          "singer-simple-3232_retailer"
-        ],
-        "availability": [
-          "singer-simple-3232_retailer"
-        ],
+        "identity": ["singer-simple-3232_retailer"],
+        "specs": ["singer-simple-3232_retailer"],
+        "price": ["singer-simple-3232_retailer"],
+        "availability": ["singer-simple-3232_retailer"],
         "fit": [],
         "review": []
       },
-      "segments": [
-        "budget_computerized"
-      ]
+      "segments": ["budget_computerized"]
     }
   ],
   "rejected_candidates": [
